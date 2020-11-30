@@ -1,0 +1,24 @@
+columns:
+  - field: name
+    wrap: false
+  - field: account__c
+    wrap: false
+  - field: project_manager__c
+    wrap: false
+  - field: status__c
+    wrap: false
+  - field: deadline__c
+    wrap: false
+filter_fields:
+  - internal__c
+  - account__c
+  - contract__c
+  - status__c
+  - project_manager__c
+  - deadline__c
+filter_scope: space
+filters: []
+label: 最近查看
+scrolling_mode: standard
+shared: true
+type: grid

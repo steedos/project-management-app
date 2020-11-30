@@ -1,0 +1,37 @@
+name: status__c
+defaultValue: null
+description: null
+filterable: false
+group: null
+hidden: false
+index: false
+inlineHelpText: null
+is_name: false
+is_wide: false
+label: 项目状态
+omit: false
+options:
+  - label: 待启动
+    value: to_be_signed
+    color: c11d25
+  - label: 开发中
+    value: developing
+    color: '4169E1'
+  - label: 已部署
+    value: deployed
+    color: EAB236
+  - label: 试运行
+    value: try_to_work
+    color: c11d25
+  - label: 运行中
+    value: working
+    color: '4169E1'
+  - label: 已验收
+    value: accepted
+    color: EAB236
+readonly: false
+required: true
+searchable: true
+sort_no: 140
+sortable: true
+type: select

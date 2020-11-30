@@ -1,0 +1,7 @@
+allowCreate: true
+allowDelete: true
+allowEdit: true
+allowRead: true
+modifyAllRecords: true
+object_name: project_meeting__c
+viewAllRecords: true

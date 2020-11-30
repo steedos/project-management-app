@@ -1,0 +1,7 @@
+allowCreate: true
+allowDelete: true
+allowEdit: true
+allowRead: true
+modifyAllRecords: false
+object_name: project_time__c
+viewAllRecords: true

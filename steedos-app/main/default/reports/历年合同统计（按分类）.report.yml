@@ -1,0 +1,27 @@
+name: 历年合同统计（按分类）
+charting: true
+columns:
+  - signed_date
+counting: false
+data_source: odata
+filter_scope: space
+filters:
+  - field: contract_type
+    operation: <>
+    value:
+      - Z7XjQKG7ZcqyjCs3i
+grouping: true
+object_name: contracts
+options:
+  sort: []
+  column_width:
+    - - contract_type.name
+      - 100
+    - - signed_date
+      - 100
+report_type: matrix
+rows:
+  - contract_type.name
+totaling: true
+values:
+  - amount

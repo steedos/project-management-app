@@ -1,0 +1,26 @@
+name: status__c
+defaultValue: Open
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 状态
+omit: false
+options:
+  - label: 新建
+    value: Open
+  - label: 处理中
+    value: In-Process
+  - label: 恶化
+    value: Escalated
+  - label: 已解决
+    value: Resolved
+  - label: 关闭
+    value: Closed
+readonly: false
+required: false
+searchable: false
+sort_no: 160
+sortable: false
+type: select

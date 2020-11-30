@@ -1,0 +1,29 @@
+name: 应付账款清单
+charting: false
+columns:
+  - amount
+  - due_date
+  - account.name
+  - contract.name
+  - contract.signed_date
+counting: true
+data_source: odata
+filter_fields:
+  - field: finished
+    required: true
+filter_scope: space
+filters:
+  - is_default: true
+    field: finished
+    operation: '='
+    value: false
+    is_required: false
+grouping: true
+object_name: contract_payments
+options:
+  sort: []
+  column_width: []
+report_type: tabular
+totaling: true
+values:
+  - amount

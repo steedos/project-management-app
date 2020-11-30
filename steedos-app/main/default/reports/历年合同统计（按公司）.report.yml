@@ -1,0 +1,20 @@
+name: 历年合同统计（按公司）
+charting: true
+columns:
+  - signed_date
+counting: true
+data_source: odata
+fields:
+  - name
+  - othercompany.name
+  - amount
+  - signed_date
+filter_scope: space
+grouping: true
+object_name: contracts
+report_type: matrix
+rows:
+  - company_id.name
+totaling: true
+values:
+  - amount

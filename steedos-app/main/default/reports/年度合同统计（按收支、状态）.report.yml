@@ -1,0 +1,32 @@
+name: 年度合同统计（按收支、状态）
+charting: false
+columns:
+  - contract_fulfillment_state
+counting: true
+data_source: odata
+filter_fields:
+  - field: create_date
+    required: true
+filter_scope: space
+filters:
+  - is_default: true
+    field: create_date
+    operation: between
+    value: this_year
+    is_required: true
+grouping: true
+object_name: contracts
+options:
+  sort: []
+  column_width:
+    - - bop
+      - 100
+    - - contract_fulfillment_state
+      - 100
+report_type: matrix
+rows:
+  - bop
+totaling: true
+values:
+  - _id
+  - amount

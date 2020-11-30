@@ -1,0 +1,30 @@
+columns:
+  - field: name
+    wrap: false
+  - field: project__c
+    wrap: false
+  - field: head__c
+    wrap: false
+  - field: deadline__c
+    wrap: false
+  - field: completed__c
+    wrap: false
+  - field: completed_date__c
+    wrap: false
+filter_fields:
+  - name
+  - project__c
+  - head__c
+  - deadline__c
+  - completed__c
+filter_scope: space
+filters: []
+label: 最近查看
+scrolling_mode: standard
+shared: true
+sort:
+  - field_name: project__c
+    order: asc
+  - field_name: deadline__c
+    order: asc
+type: grid

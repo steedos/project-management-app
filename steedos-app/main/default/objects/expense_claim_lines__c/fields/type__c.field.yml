@@ -1,0 +1,35 @@
+name: type__c
+defaultValue: null
+description: null
+filterable: false
+group: null
+hidden: false
+index: false
+inlineHelpText: null
+is_name: false
+is_wide: false
+label: 费用类别
+omit: false
+options:
+  - label: 公务接待费用
+    value: entertain
+  - label: 交通费用
+    value: trafic
+  - label: 住宿费用
+    value: hotel
+  - label: 餐饮费用
+    value: restaurant
+  - label: 办公费用
+    value: office
+  - label: 通讯费用
+    value: communication
+  - label: 租房费用
+    value: rent
+  - label: 其他费用
+    value: others
+readonly: false
+required: false
+searchable: false
+sort_no: 130
+sortable: false
+type: select

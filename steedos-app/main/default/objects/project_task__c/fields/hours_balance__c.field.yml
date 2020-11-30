@@ -1,0 +1,23 @@
+name: hours_balance__c
+data_type: number
+defaultValue: null
+description: null
+filterable: false
+formula: estimated_hours__c - total_hours__c
+formula_blank_value: zeroes
+group: 用时
+hidden: false
+index: false
+inlineHelpText: null
+is_name: false
+is_wide: false
+label: 剩余用时
+omit: true
+precision: 18
+readonly: false
+required: false
+scale: 2
+searchable: false
+sort_no: 240
+sortable: false
+type: formula

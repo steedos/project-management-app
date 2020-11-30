@@ -1,0 +1,29 @@
+name: state__c
+defaultValue: not_started
+description: null
+filterable: false
+group: null
+hidden: false
+index: false
+inlineHelpText: null
+is_name: false
+is_wide: false
+label: 状态
+omit: false
+options:
+  - label: 未开始
+    value: not_started
+  - label: 进行中
+    value: in_progress
+  - label: 已完成
+    value: completed
+  - label: 等待其他人
+    value: waiting
+  - label: '延期 '
+    value: deferred
+readonly: false
+required: false
+searchable: false
+sort_no: 130
+sortable: false
+type: select

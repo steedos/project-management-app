@@ -1,0 +1,6 @@
+name: contract_manager
+assigned_apps:
+  - oa
+  - contracts
+  - crm
+label: contract_manager

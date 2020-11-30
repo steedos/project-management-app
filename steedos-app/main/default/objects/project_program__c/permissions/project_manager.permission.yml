@@ -1,0 +1,9 @@
+allowCreate: false
+allowDelete: true
+allowEdit: true
+allowRead: true
+modifyAllRecords: true
+modifyCompanyRecords: false
+object_name: project_program__c
+viewAllRecords: true
+viewCompanyRecords: false

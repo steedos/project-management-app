@@ -1,0 +1,33 @@
+columns:
+  - field: name
+    wrap: false
+  - field: project__c
+    wrap: false
+  - field: type__c
+    wrap: false
+  - field: priority__c
+    wrap: false
+  - field: status__c
+    wrap: false
+  - field: assigned_to__c
+    wrap: false
+  - field: planned_resolution__c
+    wrap: false
+  - field: request_date__c
+    wrap: false
+filter_fields:
+  - name
+  - project__c
+  - type__c
+  - priority__c
+  - status__c
+  - assigned_to__c
+filter_scope: space
+label: 所有
+scrolling_mode: standard
+shared: true
+show_count: false
+sort:
+  - field_name: request_date__c
+    order: desc
+type: grid
