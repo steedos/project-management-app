@@ -1,7 +1,0 @@
-allowCreate: true
-allowDelete: true
-allowEdit: true
-allowRead: true
-modifyAllRecords: true
-object_name: expense_claim_lines__c
-viewAllRecords: true

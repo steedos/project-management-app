@@ -1,8 +1,0 @@
-columns:
-  - field: name
-filter_scope: space
-filters: []
-label: 最近查看
-scrolling_mode: standard
-shared: true
-type: grid

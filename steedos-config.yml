@@ -26,7 +26,7 @@ tenant:
   enable_forget_password: true
   enable_create_tenant: true
   enable_password_login: true
-  enable_mobile_code_login: true
+  enable_mobile_code_login: false
   enable_bind_email: false
   enable_bind_mobile: false
 plugins:
