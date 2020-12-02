@@ -1518,10 +1518,10 @@
   resolved "https://registry.npm.taobao.org/@sqltools/formatter/download/@sqltools/formatter-1.2.2.tgz#9390a8127c0dcba61ebd7fdcc748655e191bdd68"
   integrity sha1-k5CoEnwNy6YevX/cx0hlXhkb3Wg=
 
-"@steedos/accounts@^1.23.0-alpha.1":
-  version "1.23.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@steedos/accounts/download/@steedos/accounts-1.23.0-alpha.1.tgz#957c08e1354049811294107c0e50682b94b60399"
-  integrity sha1-lXwI4TVASYESlBB8DlBoK5S2A5k=
+"@steedos/accounts@^1.23.0-alpha.3":
+  version "1.23.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@steedos/accounts/download/@steedos/accounts-1.23.0-alpha.3.tgz#586cbb15d43bfc0be502721c71d6b2f20613a84e"
+  integrity sha1-WGy7FdQ7/AvlAnIccday8gYTqE4=
   dependencies:
     "@accounts/mongo" "^0.19.0"
     "@accounts/rest-express" "^0.19.0"
@@ -1554,12 +1554,12 @@
     dotenv-flow "^3.2.0"
     underscore "1.9.2"
 
-"@steedos/auth@^1.23.0-alpha.1", "@steedos/auth@~1.23.0-alpha.1":
-  version "1.23.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@steedos/auth/download/@steedos/auth-1.23.0-alpha.1.tgz#30b789315a8a1f602070917072bc5e553bea7cd4"
-  integrity sha1-MLeJMVqKH2AgcJFwcrxeVTvqfNQ=
+"@steedos/auth@^1.23.0-alpha.3":
+  version "1.23.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@steedos/auth/download/@steedos/auth-1.23.0-alpha.3.tgz#53b6284d71c92003e1c32ce480d55e9cdd6aefb6"
+  integrity sha1-U7YoTXHJIAPhwyzkgNVenN1q77Y=
   dependencies:
-    "@steedos/objectql" "~1.23.0-alpha.1"
+    "@steedos/objectql" "^1.23.0-alpha.3"
     cookies "^0.7.3"
     express "^4.16.4"
     express-jwt "^5.3.1"
@@ -1567,18 +1567,18 @@
     sha256 "^0.2.0"
     underscore "^1.9.1"
 
-"@steedos/core@^1.23.0-alpha.1", "@steedos/core@~1.23.0-alpha.1":
-  version "1.23.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@steedos/core/download/@steedos/core-1.23.0-alpha.1.tgz#5b991e3cd22fde22282288b45e9f19e716ca6643"
-  integrity sha1-W5kePNIv3iIoIoi0Xp8Z5xbKZkM=
+"@steedos/core@^1.23.0-alpha.3":
+  version "1.23.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@steedos/core/download/@steedos/core-1.23.0-alpha.3.tgz#eff74253e68fe6009c2b402589a81a1ab6e63198"
+  integrity sha1-7/dCU+aP5gCcK0AliagaGrbmMZg=
   dependencies:
     "@salesforce/dev-config" "^1.4.4"
     "@salesforce/kit" "^1.0.4"
     "@salesforce/ts-types" "^1.1.1"
-    "@steedos/auth" "~1.23.0-alpha.1"
-    "@steedos/migrate" "~1.23.0-alpha.1"
-    "@steedos/objectql" "~1.23.0-alpha.1"
-    "@steedos/standard-objects" "~1.23.0-alpha.1"
+    "@steedos/auth" "^1.23.0-alpha.3"
+    "@steedos/migrate" "^1.23.0-alpha.3"
+    "@steedos/objectql" "^1.23.0-alpha.3"
+    "@steedos/standard-objects" "^1.23.0-alpha.3"
     "@steedos/steedos-plugin-schema-builder" "^1.0.4"
     "@types/express" "^4.16.1"
     "@types/mongodb" "^3.1.22"
@@ -1606,18 +1606,18 @@
     uglify-js "^3.6.0"
     underscore "1.5.2"
 
-"@steedos/filters@^1.23.0-alpha.1", "@steedos/filters@~1.23.0-alpha.1":
-  version "1.23.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@steedos/filters/download/@steedos/filters-1.23.0-alpha.1.tgz#21dcc741db33b0713aa5fa7c2bcda7b17e56b5e4"
-  integrity sha1-IdzHQdszsHE6pfp8K82nsX5WteQ=
+"@steedos/filters@^1.23.0-alpha.3":
+  version "1.23.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@steedos/filters/download/@steedos/filters-1.23.0-alpha.3.tgz#a242e90c65abc34ac3ca69f434d2bdc10b6d0ca5"
+  integrity sha1-okLpDGWrw0rDymn0NNK9wQttDKU=
   dependencies:
     moment "^2.24.0"
     underscore "^1.9.1"
 
-"@steedos/i18n@^1.23.0-alpha.1":
-  version "1.23.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@steedos/i18n/download/@steedos/i18n-1.23.0-alpha.1.tgz#b821cda2dc41a68af9cfd8f289c58a62c9584e14"
-  integrity sha1-uCHNotxBpor5z9jyicWKYslYThQ=
+"@steedos/i18n@^1.23.0-alpha.3":
+  version "1.23.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@steedos/i18n/download/@steedos/i18n-1.23.0-alpha.3.tgz#8593ef2a814e4e8e0e8c41a0a12a40d83b0131f8"
+  integrity sha1-hZPvKoFOTo4OjEGgoSpA2DsBMfg=
   dependencies:
     i18next "^19.3.4"
     i18next-sprintf-postprocessor "^0.2.2"
@@ -1633,12 +1633,13 @@
     node-fetch "^2.6.0"
     systeminformation "^4.26.10"
 
-"@steedos/metadata-api@^1.23.0-alpha.1":
-  version "1.23.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@steedos/metadata-api/download/@steedos/metadata-api-1.23.0-alpha.1.tgz#a5ffade55700954807455dbd016a8824e16237e0"
-  integrity sha1-pf+t5VcAlUgHRV29AWqIJOFiN+A=
+"@steedos/metadata-api@^1.23.0-alpha.3":
+  version "1.23.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@steedos/metadata-api/download/@steedos/metadata-api-1.23.0-alpha.3.tgz#31449775d342939e92e638012f99f3dea6d5a55d"
+  integrity sha1-MUSXddNCk56S5jgBL5nz3qbVpV0=
   dependencies:
     "@salesforce/dev-config" "^2.0.0"
+    "@steedos/metadata-core" "^1.23.0-alpha.3"
     chalk "^4.1.0"
     compressing "^1.5.1"
     dotenv-flow "^3.1.0"
@@ -1646,10 +1647,23 @@
     mongodb "^3.6.2"
     underscore "^1.11.0"
 
-"@steedos/meteor-bundle-dependencies@^1.23.0-alpha.1":
-  version "1.23.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@steedos/meteor-bundle-dependencies/download/@steedos/meteor-bundle-dependencies-1.23.0-alpha.1.tgz#38f6c1f0e49b31c34c1da504d3858bdc3dee0ca3"
-  integrity sha1-OPbB8OSbMcNMHaUE04WL3D3uDKM=
+"@steedos/metadata-core@^1.23.0-alpha.3":
+  version "1.23.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@steedos/metadata-core/download/@steedos/metadata-core-1.23.0-alpha.4.tgz#ef7db298b6d65415fc9b960e0e3e58285283d5ac"
+  integrity sha1-732ymLbWVBX8m5YODj5YKFKD1aw=
+  dependencies:
+    archiver "^5.1.0"
+    chalk "^4.1.0"
+    clone "^2.1.2"
+    compressing "^1.5.1"
+    glob "^7.1.6"
+    js-yaml "^3.14.0"
+    underscore "^1.11.0"
+
+"@steedos/meteor-bundle-dependencies@^1.23.0-alpha.3":
+  version "1.23.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@steedos/meteor-bundle-dependencies/download/@steedos/meteor-bundle-dependencies-1.23.0-alpha.3.tgz#1649fe71d7db0b4f2843d55df7a235cc1baacab9"
+  integrity sha1-Fkn+cdfbC08oQ9Vd96I1zBuqyrk=
   dependencies:
     apn "1.6.2"
     arson "0.2.6"
@@ -1696,10 +1710,10 @@
     uuid "3.3.2"
     whatwg-fetch "2.0.4"
 
-"@steedos/meteor-bundle-runner@^1.23.0-alpha.1":
-  version "1.23.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@steedos/meteor-bundle-runner/download/@steedos/meteor-bundle-runner-1.23.0-alpha.1.tgz#5e802227bcb442309b27ef378ca69f1996e39848"
-  integrity sha1-XoAiJ7y0QjCbJ+83jKafGZbjmEg=
+"@steedos/meteor-bundle-runner@^1.23.0-alpha.3":
+  version "1.23.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@steedos/meteor-bundle-runner/download/@steedos/meteor-bundle-runner-1.23.0-alpha.3.tgz#78d41bf7af40c54a8810b6ba185d316cb3595210"
+  integrity sha1-eNQb969AxUqIELa6GF0xbLNZUhA=
   dependencies:
     fibers "4.0.3"
     meteor-promise "0.8.5"
@@ -1709,25 +1723,25 @@
     source-map-support "^0.5.10"
     underscore "1.5.2"
 
-"@steedos/migrate@~1.23.0-alpha.1":
-  version "1.23.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@steedos/migrate/download/@steedos/migrate-1.23.0-alpha.1.tgz#a89ab8fd5646abb54179e3509fad0d74943eff23"
-  integrity sha1-qJq4/VZGq7VBeeNQn60NdJQ+/yM=
+"@steedos/migrate@^1.23.0-alpha.3":
+  version "1.23.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@steedos/migrate/download/@steedos/migrate-1.23.0-alpha.3.tgz#c968e8b68f6d550b2eef72420d46c08f19dfc758"
+  integrity sha1-yWjoto9tVQsu73JCDUbAjxnfx1g=
   dependencies:
     migrate "^1.6.2"
 
-"@steedos/objectql@^1.23.0-alpha.1", "@steedos/objectql@~1.23.0-alpha.1":
-  version "1.23.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@steedos/objectql/download/@steedos/objectql-1.23.0-alpha.1.tgz#4718c15cf9bbc48eff775f5b8830fa75702feb1d"
-  integrity sha1-RxjBXPm7xI7/d19biDD6dXAv6x0=
+"@steedos/objectql@^1.23.0-alpha.3":
+  version "1.23.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@steedos/objectql/download/@steedos/objectql-1.23.0-alpha.3.tgz#21b768ea40f3c194bbdd8b6db79b5bfed5ac73ec"
+  integrity sha1-Ibdo6kDzwZS73Yttt5tb/tWsc+w=
   dependencies:
     "@salesforce/dev-config" "^1.4.4"
     "@salesforce/kit" "^1.0.4"
     "@salesforce/ts-types" "^1.1.1"
-    "@steedos/filters" "~1.23.0-alpha.1"
+    "@steedos/filters" "^1.23.0-alpha.3"
     "@steedos/odata-v4-typeorm" "^1.20.1"
-    "@steedos/schemas" "~1.23.0-alpha.1"
-    "@steedos/standard-objects" "~1.23.0-alpha.1"
+    "@steedos/schemas" "^1.23.0-alpha.3"
+    "@steedos/standard-objects" "^1.23.0-alpha.3"
     "@types/express" "^4.16.1"
     "@types/mongodb" "^3.1.22"
     "@types/node" "^11.10.4"
@@ -1764,23 +1778,23 @@
     odata-v4-parser "0.1.13"
     odata-v4-sql "^0.1.2"
 
-"@steedos/process@^1.23.0-alpha.1":
-  version "1.23.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@steedos/process/download/@steedos/process-1.23.0-alpha.1.tgz#c6924773f7b6e5776374a8650d11a1d801e81525"
-  integrity sha1-xpJHc/e25XdjdKhlDRGh2AHoFSU=
+"@steedos/process@^1.23.0-alpha.3":
+  version "1.23.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@steedos/process/download/@steedos/process-1.23.0-alpha.3.tgz#7d14d0fd34ac09e52d250e3f0a493ed2ca80813a"
+  integrity sha1-fRTQ/TSsCeUtJQ4/Ckk+0sqAgTo=
   dependencies:
-    "@steedos/core" "~1.23.0-alpha.1"
-    "@steedos/objectql" "~1.23.0-alpha.1"
+    "@steedos/core" "^1.23.0-alpha.3"
+    "@steedos/objectql" "^1.23.0-alpha.3"
 
-"@steedos/schemas@~1.23.0-alpha.1":
-  version "1.23.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@steedos/schemas/download/@steedos/schemas-1.23.0-alpha.1.tgz#1a9e6fa5f419ef19e9e20fe6235c2ab7f252828b"
-  integrity sha1-Gp5vpfQZ7xnp4g/mI1wqt/JSgos=
+"@steedos/schemas@^1.23.0-alpha.3":
+  version "1.23.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@steedos/schemas/download/@steedos/schemas-1.23.0-alpha.3.tgz#56f25fbf252f999ff503d947c3377b1c89e659d3"
+  integrity sha1-VvJfvyUvmZ/1A9lHwzd7HInmWdM=
 
-"@steedos/standard-objects@^1.23.0-alpha.1", "@steedos/standard-objects@~1.23.0-alpha.1":
-  version "1.23.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@steedos/standard-objects/download/@steedos/standard-objects-1.23.0-alpha.1.tgz#386ee8690d67a1c82ef3fddb9f87fd99eb124803"
-  integrity sha1-OG7oaQ1nocgu8/3bn4f9mesSSAM=
+"@steedos/standard-objects@^1.23.0-alpha.3":
+  version "1.23.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@steedos/standard-objects/download/@steedos/standard-objects-1.23.0-alpha.3.tgz#75b55c591948025d01b4264de0e4aa19c2ad3b94"
+  integrity sha1-dbVcWRlIAl0BtCZN4OSqGcKtO5Q=
 
 "@steedos/steedos-plugin-schema-builder@^1.0.4":
   version "1.0.4"
@@ -1796,10 +1810,10 @@
     express "^4.17.1"
     underscore "^1.9.1"
 
-"@steedos/webapp@^1.23.0-alpha.1":
-  version "1.23.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/@steedos/webapp/download/@steedos/webapp-1.23.0-alpha.1.tgz#624cc3a55733cd1e345b95f7e5078216bdac92f3"
-  integrity sha1-YkzDpVczzR40W5X35QeCFr2skvM=
+"@steedos/webapp@^1.23.0-alpha.3":
+  version "1.23.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/@steedos/webapp/download/@steedos/webapp-1.23.0-alpha.3.tgz#f6fe932c9e9f0789d3f2f5fe8688213763ad5593"
+  integrity sha1-9v6TLJ6fB4nT8vX+hoghN2OtVZM=
   dependencies:
     "@accounts/client" "^0.19.0"
     "@accounts/client-password" "^0.19.0"
@@ -2625,6 +2639,35 @@ aproba@^1.0.3, aproba@^1.1.1:
   resolved "https://registry.npm.taobao.org/aproba/download/aproba-1.2.0.tgz#6802e6264efd18c790a1b0d517f0f2627bf2c94a"
   integrity sha1-aALmJk79GMeQobDVF/DyYnvyyUo=
 
+archiver-utils@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npm.taobao.org/archiver-utils/download/archiver-utils-2.1.0.tgz#e8a460e94b693c3e3da182a098ca6285ba9249e2"
+  integrity sha1-6KRg6UtpPD49oYKgmMpihbqSSeI=
+  dependencies:
+    glob "^7.1.4"
+    graceful-fs "^4.2.0"
+    lazystream "^1.0.0"
+    lodash.defaults "^4.2.0"
+    lodash.difference "^4.5.0"
+    lodash.flatten "^4.4.0"
+    lodash.isplainobject "^4.0.6"
+    lodash.union "^4.6.0"
+    normalize-path "^3.0.0"
+    readable-stream "^2.0.0"
+
+archiver@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.npm.taobao.org/archiver/download/archiver-5.1.0.tgz?cache=0&sync_timestamp=1605847847559&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Farchiver%2Fdownload%2Farchiver-5.1.0.tgz#05b0f6f7836f3e6356a0532763d2bb91017a7e37"
+  integrity sha1-BbD294NvPmNWoFMnY9K7kQF6fjc=
+  dependencies:
+    archiver-utils "^2.1.0"
+    async "^3.2.0"
+    buffer-crc32 "^0.2.1"
+    readable-stream "^3.6.0"
+    readdir-glob "^1.0.0"
+    tar-stream "^2.1.4"
+    zip-stream "^4.0.4"
+
 are-we-there-yet@~1.1.2:
   version "1.1.5"
   resolved "https://registry.npm.taobao.org/are-we-there-yet/download/are-we-there-yet-1.1.5.tgz#4b35c2944f062a8bfcda66410760350fe9ddfc21"
@@ -2838,6 +2881,11 @@ async@^2.1.5, async@^2.6.2:
   integrity sha1-1yYl4jRKNlbjo61Pp0n6gymdgv8=
   dependencies:
     lodash "^4.17.14"
+
+async@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.npm.taobao.org/async/download/async-3.2.0.tgz#b3a2685c5ebb641d3de02d161002c60fc9f85720"
+  integrity sha1-s6JoXF67ZB094C0WEALGD8n4VyA=
 
 async@~0.2.9:
   version "0.2.10"
@@ -3416,6 +3464,15 @@ bl@^2.2.1:
     readable-stream "^2.3.5"
     safe-buffer "^5.1.1"
 
+bl@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.npm.taobao.org/bl/download/bl-4.0.3.tgz#12d6287adc29080e22a705e5764b2a9522cdc489"
+  integrity sha1-EtYoetwpCA4ipwXldksqlSLNxIk=
+  dependencies:
+    buffer "^5.5.0"
+    inherits "^2.0.4"
+    readable-stream "^3.4.0"
+
 blob@0.0.5:
   version "0.0.5"
   resolved "https://registry.npm.taobao.org/blob/download/blob-0.0.5.tgz#d680eeef25f8cd91ad533f5b01eed48e64caf683"
@@ -3682,7 +3739,7 @@ buffer-alloc@^1.2.0:
     buffer-alloc-unsafe "^1.1.0"
     buffer-fill "^1.0.0"
 
-buffer-crc32@~0.2.3:
+buffer-crc32@^0.2.1, buffer-crc32@^0.2.13, buffer-crc32@~0.2.3:
   version "0.2.13"
   resolved "https://registry.npm.taobao.org/buffer-crc32/download/buffer-crc32-0.2.13.tgz#0d333e3f00eac50aa1454abd30ef8c2a5d9a7242"
   integrity sha1-DTM+PwDqxQqhRUq9MO+MKl2ackI=
@@ -4378,6 +4435,16 @@ compose-function@3.0.3:
   dependencies:
     arity-n "^1.0.4"
 
+compress-commons@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.npm.taobao.org/compress-commons/download/compress-commons-4.0.2.tgz?cache=0&sync_timestamp=1605757329150&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcompress-commons%2Fdownload%2Fcompress-commons-4.0.2.tgz#d6896be386e52f37610cef9e6fa5defc58c31bd7"
+  integrity sha1-1olr44blLzdhDO+eb6Xe/FjDG9c=
+  dependencies:
+    buffer-crc32 "^0.2.13"
+    crc32-stream "^4.0.1"
+    normalize-path "^3.0.0"
+    readable-stream "^3.6.0"
+
 compressible@~2.0.11, compressible@~2.0.16:
   version "2.0.18"
   resolved "https://registry.npm.taobao.org/compressible/download/compressible-2.0.18.tgz#af53cca6b070d4c3c0750fbd77286a6d7cc46fba"
@@ -4681,13 +4748,21 @@ cosmiconfig@^6.0.0:
     path-type "^4.0.0"
     yaml "^1.7.2"
 
-crc-32@~1.2.0:
+crc-32@^1.2.0, crc-32@~1.2.0:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/crc-32/download/crc-32-1.2.0.tgz#cb2db6e29b88508e32d9dd0ec1693e7b41a18208"
   integrity sha1-yy224puIUI4y2d0OwWk+e0Ghggg=
   dependencies:
     exit-on-epipe "~1.0.1"
     printj "~1.1.0"
+
+crc32-stream@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npm.taobao.org/crc32-stream/download/crc32-stream-4.0.1.tgz?cache=0&sync_timestamp=1605753252100&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcrc32-stream%2Fdownload%2Fcrc32-stream-4.0.1.tgz#0f047d74041737f8a55e86837a1b826bd8ab0067"
+  integrity sha1-DwR9dAQXN/ilXoaDehuCa9irAGc=
+  dependencies:
+    crc-32 "^1.2.0"
+    readable-stream "^3.4.0"
 
 create-ecdh@^4.0.0:
   version "4.0.4"
@@ -5584,7 +5659,7 @@ encodeurl@~1.0.1, encodeurl@~1.0.2:
   resolved "https://registry.npm.taobao.org/encodeurl/download/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
 
-end-of-stream@^1.0.0, end-of-stream@^1.1.0:
+end-of-stream@^1.0.0, end-of-stream@^1.1.0, end-of-stream@^1.4.1:
   version "1.4.4"
   resolved "https://registry.npm.taobao.org/end-of-stream/download/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
   integrity sha1-WuZKX0UFe682JuwU2gyl5LJDHrA=
@@ -8880,6 +8955,13 @@ lazy-cache@^1.0.3:
   resolved "https://registry.npm.taobao.org/lazy-cache/download/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
   integrity sha1-odePw6UEdMuAhF07O24dpJpEbo4=
 
+lazystream@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/lazystream/download/lazystream-1.0.0.tgz#f6995fe0f820392f61396be89462407bb77168e4"
+  integrity sha1-9plf4PggOS9hOWvolGJAe7dxaOQ=
+  dependencies:
+    readable-stream "^2.0.5"
+
 lcid@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/lcid/download/lcid-1.0.0.tgz#308accafa0bc483a3867b4b6f2b9506251d1b835"
@@ -9035,6 +9117,21 @@ lodash.assign@^4.0.3, lodash.assign@^4.0.6:
   resolved "https://registry.npm.taobao.org/lodash.assign/download/lodash.assign-4.2.0.tgz#0d99f3ccd7a6d261d19bdaeb9245005d285808e7"
   integrity sha1-DZnzzNem0mHRm9rrkkUAXShYCOc=
 
+lodash.defaults@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.npm.taobao.org/lodash.defaults/download/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
+  integrity sha1-0JF4cW/+pN3p5ft7N/bwgCJ0WAw=
+
+lodash.difference@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.npm.taobao.org/lodash.difference/download/lodash.difference-4.5.0.tgz#9ccb4e505d486b91651345772885a2df27fd017c"
+  integrity sha1-nMtOUF1Ia5FlE0V3KIWi3yf9AXw=
+
+lodash.flatten@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.npm.taobao.org/lodash.flatten/download/lodash.flatten-4.4.0.tgz#f31c22225a9632d2bbf8e4addbef240aa765a61f"
+  integrity sha1-8xwiIlqWMtK7+OSt2+8kCqdlph8=
+
 lodash.includes@^4.3.0:
   version "4.3.0"
   resolved "https://registry.npm.taobao.org/lodash.includes/download/lodash.includes-4.3.0.tgz#60bb98a87cb923c68ca1e51325483314849f553f"
@@ -9099,6 +9196,11 @@ lodash.templatesettings@^4.0.0:
   integrity sha1-5IExDwSdPPbUfpEq0JMTsVTw+zM=
   dependencies:
     lodash._reinterpolate "^3.0.0"
+
+lodash.union@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.npm.taobao.org/lodash.union/download/lodash.union-4.6.0.tgz#48bb5088409f16f1821666641c44dd1aaae3cd88"
+  integrity sha1-SLtQiECfFvGCFmZkHETdGqrjzYg=
 
 lodash.uniq@^4.5.0:
   version "4.5.0"
@@ -12249,7 +12351,7 @@ read-pkg@^3.0.0:
     normalize-package-data "^2.3.2"
     path-type "^3.0.0"
 
-"readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.0, readable-stream@^2.3.3, readable-stream@^2.3.5, readable-stream@^2.3.6, readable-stream@~2.3.6:
+"readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.0, readable-stream@^2.3.3, readable-stream@^2.3.5, readable-stream@^2.3.6, readable-stream@~2.3.6:
   version "2.3.7"
   resolved "https://registry.npm.taobao.org/readable-stream/download/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
   integrity sha1-Hsoc9xGu+BTAT2IlKjamL2yyO1c=
@@ -12272,7 +12374,7 @@ readable-stream@1.1.x:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-readable-stream@^3.0.0, readable-stream@^3.0.6, readable-stream@^3.1.1, readable-stream@^3.6.0:
+readable-stream@^3.0.0, readable-stream@^3.0.6, readable-stream@^3.1.1, readable-stream@^3.4.0, readable-stream@^3.6.0:
   version "3.6.0"
   resolved "https://registry.npm.taobao.org/readable-stream/download/readable-stream-3.6.0.tgz#337bbda3adc0706bd3e024426a286d4b4b2c9198"
   integrity sha1-M3u9o63AcGvT4CRCaihtS0sskZg=
@@ -12284,6 +12386,13 @@ readable-stream@^3.0.0, readable-stream@^3.0.6, readable-stream@^3.1.1, readable
 "readable-stream@https://github.com/jeffbski/readable-stream/archive/v1.0.2-object-transform2-ret-self.tar.gz":
   version "1.0.2"
   resolved "https://github.com/jeffbski/readable-stream/archive/v1.0.2-object-transform2-ret-self.tar.gz#129e553a773186632e8b58939c58e6f607542b63"
+
+readdir-glob@^1.0.0:
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/readdir-glob/download/readdir-glob-1.1.1.tgz#f0e10bb7bf7bfa7e0add8baffdc54c3f7dbee6c4"
+  integrity sha1-8OELt797+n4K3Yuv/cVMP32+5sQ=
+  dependencies:
+    minimatch "^3.0.4"
 
 readdirp@^2.2.1:
   version "2.2.1"
@@ -13640,25 +13749,25 @@ stealthy-require@^1.1.1:
   resolved "https://registry.npm.taobao.org/stealthy-require/download/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
 
-steedos-server@^1.23.0-alpha.1:
-  version "1.23.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/steedos-server/download/steedos-server-1.23.0-alpha.1.tgz#4e47b6b39f565025b1148316a25c42f59d3cda9a"
-  integrity sha1-Tke2s59WUCWxFIMWolxC9Z082po=
+steedos-server@^1.23.0-alpha.3:
+  version "1.23.0-alpha.3"
+  resolved "https://registry.npm.taobao.org/steedos-server/download/steedos-server-1.23.0-alpha.3.tgz#4bdeba581d36eb90a637007f0b7f3872b9248a94"
+  integrity sha1-S966WB0265CmNwB/C384crkkipQ=
   dependencies:
     "@babel/runtime" "^7.2.0"
     "@salesforce-ux/design-system" "^2.11.0"
-    "@steedos/accounts" "^1.23.0-alpha.1"
-    "@steedos/auth" "^1.23.0-alpha.1"
-    "@steedos/core" "^1.23.0-alpha.1"
-    "@steedos/filters" "^1.23.0-alpha.1"
-    "@steedos/i18n" "^1.23.0-alpha.1"
+    "@steedos/accounts" "^1.23.0-alpha.3"
+    "@steedos/auth" "^1.23.0-alpha.3"
+    "@steedos/core" "^1.23.0-alpha.3"
+    "@steedos/filters" "^1.23.0-alpha.3"
+    "@steedos/i18n" "^1.23.0-alpha.3"
     "@steedos/license" "1.22.1"
-    "@steedos/meteor-bundle-dependencies" "^1.23.0-alpha.1"
-    "@steedos/meteor-bundle-runner" "^1.23.0-alpha.1"
-    "@steedos/objectql" "^1.23.0-alpha.1"
-    "@steedos/process" "^1.23.0-alpha.1"
-    "@steedos/standard-objects" "^1.23.0-alpha.1"
-    "@steedos/webapp" "^1.23.0-alpha.1"
+    "@steedos/meteor-bundle-dependencies" "^1.23.0-alpha.3"
+    "@steedos/meteor-bundle-runner" "^1.23.0-alpha.3"
+    "@steedos/objectql" "^1.23.0-alpha.3"
+    "@steedos/process" "^1.23.0-alpha.3"
+    "@steedos/standard-objects" "^1.23.0-alpha.3"
+    "@steedos/webapp" "^1.23.0-alpha.3"
     basic-auth "^2.0.1"
     bcrypt "3.0.6"
     body-parser "^1.18.3"
@@ -14117,6 +14226,17 @@ tar-stream@^1.5.2:
     readable-stream "^2.3.0"
     to-buffer "^1.1.1"
     xtend "^4.0.0"
+
+tar-stream@^2.1.4:
+  version "2.1.4"
+  resolved "https://registry.npm.taobao.org/tar-stream/download/tar-stream-2.1.4.tgz#c4fb1a11eb0da29b893a5b25476397ba2d053bfa"
+  integrity sha1-xPsaEesNopuJOlslR2OXui0FO/o=
+  dependencies:
+    bl "^4.0.3"
+    end-of-stream "^1.4.1"
+    fs-constants "^1.0.0"
+    inherits "^2.0.3"
+    readable-stream "^3.1.1"
 
 tar@^2.2.1:
   version "2.2.2"
@@ -15708,3 +15828,12 @@ yeast@0.1.2:
   version "0.1.2"
   resolved "https://registry.npm.taobao.org/yeast/download/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
   integrity sha1-AI4G2AlDIMNy28L47XagymyKxBk=
+
+zip-stream@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.npm.taobao.org/zip-stream/download/zip-stream-4.0.4.tgz?cache=0&sync_timestamp=1605758545148&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fzip-stream%2Fdownload%2Fzip-stream-4.0.4.tgz#3a8f100b73afaa7d1ae9338d910b321dec77ff3a"
+  integrity sha1-Oo8QC3Ovqn0a6TONkQsyHex3/zo=
+  dependencies:
+    archiver-utils "^2.1.0"
+    compress-commons "^4.0.2"
+    readable-stream "^3.6.0"
