@@ -1,3 +1,4 @@
+name: mine
 columns:
   - field: name
     wrap: false
@@ -12,6 +13,9 @@ columns:
     width: '150'
     wrap: false
   - field: priority__c
+    width: '100'
+    wrap: false
+  - field: completed__c
     width: '100'
     wrap: false
   - field: state__c

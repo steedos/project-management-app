@@ -1,3 +1,4 @@
+name: all
 columns:
   - field: name
     wrap: false

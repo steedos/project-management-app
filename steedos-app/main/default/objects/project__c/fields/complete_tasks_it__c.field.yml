@@ -3,13 +3,13 @@ data_type: number
 defaultValue: null
 description: null
 filterable: false
-group: 任务
+group: 任务与问题
 hidden: false
 index: false
 inlineHelpText: null
 is_name: false
 is_wide: false
-label: 已完成
+label: 已完成任务
 omit: true
 precision: 18
 readonly: false

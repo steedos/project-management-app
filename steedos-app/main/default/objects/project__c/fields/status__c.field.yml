@@ -13,7 +13,7 @@ omit: false
 options:
   - label: 待启动
     value: to_be_signed
-    color: c11d25
+    color: cfd3d7
   - label: 开发中
     value: developing
     color: '4169E1'
@@ -25,10 +25,10 @@ options:
     color: c11d25
   - label: 运行中
     value: working
-    color: '4169E1'
+    color: f9e29d
   - label: 已验收
     value: accepted
-    color: EAB236
+    color: 49d181
 readonly: false
 required: true
 searchable: true

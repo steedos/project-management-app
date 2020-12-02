@@ -14,5 +14,5 @@ readonly: false
 required: false
 searchable: false
 sort_no: 155
-sortable: false
+sortable: true
 type: date

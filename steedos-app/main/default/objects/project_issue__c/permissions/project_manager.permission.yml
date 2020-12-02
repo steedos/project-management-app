@@ -4,6 +4,6 @@ allowEdit: true
 allowRead: true
 modifyAllRecords: true
 modifyCompanyRecords: false
-object_name: project_issue__c
+permission_set_id: project_manager
 viewAllRecords: true
 viewCompanyRecords: false

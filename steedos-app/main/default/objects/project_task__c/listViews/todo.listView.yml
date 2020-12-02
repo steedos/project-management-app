@@ -1,3 +1,4 @@
+name: todo
 columns:
   - field: name
     wrap: false

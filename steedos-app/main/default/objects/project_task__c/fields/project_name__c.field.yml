@@ -17,5 +17,5 @@ readonly: false
 required: false
 searchable: false
 sort_no: 110
-sortable: false
+sortable: true
 type: formula

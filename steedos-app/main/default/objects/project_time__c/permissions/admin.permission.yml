@@ -3,5 +3,5 @@ allowDelete: true
 allowEdit: true
 allowRead: true
 modifyAllRecords: true
-object_name: project_time__c
+permission_set_id: admin
 viewAllRecords: true

@@ -18,5 +18,5 @@ reference_to: space_users
 required: true
 searchable: true
 sort_no: 125
-sortable: false
+sortable: true
 type: lookup

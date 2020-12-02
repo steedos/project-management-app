@@ -14,5 +14,5 @@ readonly: false
 required: true
 searchable: true
 sort_no: 100
-sortable: false
+sortable: true
 type: text

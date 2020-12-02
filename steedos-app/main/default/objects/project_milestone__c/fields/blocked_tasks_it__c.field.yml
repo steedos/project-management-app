@@ -9,7 +9,7 @@ index: false
 inlineHelpText: null
 is_name: false
 is_wide: false
-label: 受阻
+label: 受阻任务
 omit: true
 precision: 18
 readonly: false

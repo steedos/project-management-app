@@ -1,3 +1,4 @@
+name: recent
 columns:
   - field: name
 filter_scope: space
