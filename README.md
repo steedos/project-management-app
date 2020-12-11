@@ -6,7 +6,7 @@ Help you track and manage projects, milestones, tasks, blocked tasks, overdue ta
 
 ## System function
 
-- **project set：**Centralized management of all projects, a project may or may not belong to a project set, but any project set must contain projects. In the project set, you can directly see the running status of all projects.
+- project set：Centralized management of all projects, a project may or may not belong to a project set, but any project set must contain projects. In the project set, you can directly see the running status of all projects.
 - **Project：**For all the specific projects in the project set, the running status of each project can be visually previewed. If there are many projects, you can use the filter function to quickly search.
 - **Milepost：**Milestones are usually set in the planning phase of a project and are updated as the project progresses. They are visual reference points, which can decompose the project into manageable and controllable phases to create orderly nodes to help project managers and teams anchor projects.
 - **Project tasks：**Project task management needs to manage the distribution, real-time response and progress update of multiple project tasks at the same time; record the required resources, estimated and actual work hours, associated documents and related issues of each task; at the same time, it can track the real-time progress and status of tasks, and reflect the change history of tasks.
