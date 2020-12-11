@@ -16,7 +16,7 @@ Help you track and manage projects, milestones, tasks, blocked tasks, overdue ta
 - **Problem：**When you create a new issue, you can set the priority of the problem because multiple problems may occur in the same period of time.
 - **Journal:**Each project in progress or after the end, can quickly create a log, in order to effectively control each project.
 
-## 关于华炎魔方
+## About  Steedos Platform
 
 About  Steedos Platform
 Steedos Platform is a visual modeling and descriptive programming development tool. The design goal is to lower the threshold of application construction so that everyone can participate in the development. The system has built-in data modeling and a series of automatic tools, including validation rules, public computing, workflow rules, automatic operation, approval process, report engine and so on.
