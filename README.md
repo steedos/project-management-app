@@ -73,3 +73,4 @@ The source code of the project depends on nodejs environment. To use mongodb dat
   4. Using browser access <http://127.0.0.1 :5000/ >   For the first time, the database is empty. You need to register an account and choose to create an enterprise.
 
 <center><a href="https://github.com/steedos/project-management-app/blob/master/README_cn.md">  Chinese </a></center>
+<center><a href="https://github.com/steedos/project-management-app">  English </a></center>
