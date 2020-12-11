@@ -1,80 +1,60 @@
-# Steedos project management system
+# 开源项目管理系统
 
-<center>
-<a href="https://github.com/steedos/project-management-app/blob/master/README_cn.md">  中文 </a>
-/
-<a href="https://github.com/steedos/project-management-app">  English </a>
-</center>
+本项目是基于华炎魔方平台，使用无代码模式开发的项目管理系统。帮助您跟踪和管理项目，里程碑，任务，已阻止的任务，逾期任务，时间，费用预算，并具有详细的报表功能。
 
-Help you track and manage projects, milestones, tasks, blocked tasks, overdue tasks, time, cost budget, and has detailed reporting functions. The system is based on Steedos Platform and metadata driven, which can be quickly customized.
+## 什么是项目管理
 
-![project](/docs/images-10/project.png)
+项目管理，是指项目管理者在有限的资源约束下，运用系统的观点，方法和理论，对项目所涉及的全部工作，进行有效的管理。为使项目获得成功，必须对项目的工作范围、可能风险、需要资源(人、硬件／软件)、要实现的任务、经历的里程碑、花费工作量(成本)、进度安排等做到心中有数。
 
-## System function
+## 华炎魔方项目管理系统
 
-- Project set： Centralized management of all projects, a project may or may not belong to a project set, but any project set must contain projects. In the project set, you can directly see the running status of all projects.
-- Project: For all the specific projects in the project set, the running status of each project can be visually previewed. If there are many projects, you can use the filter function to quickly search.
-- Milepost: Milestones are usually set in the planning phase of a project and are updated as the project progresses. They are visual reference points, which can decompose the project into manageable and controllable phases to create orderly nodes to help project managers and teams anchor projects.
-- Project tasks: Project task management needs to manage the distribution, real-time response and progress update of multiple project tasks at the same time; record the required resources, estimated and actual work hours, associated documents and related issues of each task; at the same time, it can track the real-time progress and status of tasks, and reflect the change history of tasks.
-- Time spent: The total time from the occurrence to the end of a project can be directly related to a specific project. Compare the actual time consumption with the planned time, and analyze the reasons.
-- Cost: Almost every project will generate corresponding expenses, which can be directly related to specific tasks, so as to facilitate the later query of the cost details of each project.
-- Meeting: Each project will have a corresponding meeting. After determining the meeting theme, you can directly select to associate it to a project.
-- Issue: When you create a new issue, you can set the priority of the problem because multiple problems may occur in the same period of time.
-- Log: Each project in progress or after the end, can quickly create a log, in order to effectively control each project.
+项目管理者通常会借助项目管理系统来管理项目，使用华炎魔方的可视化建模和描述式编程模式工具，无需编写任何代码，只需简单点击鼠标，就能构建专业的项目管理系统。开发完的系统还能生成项目源码，实现快速安装部署。
 
-## About  Steedos Platform
-
-About  Steedos Platform
-Steedos Platform is a visual modeling and descriptive programming development tool. The design goal is to lower the threshold of application construction so that everyone can participate in the development. The system has built-in data modeling and a series of automatic tools, including validation rules, public computing, workflow rules, automatic operation, approval process, report engine and so on.
-For example, the system needs to manage projects, milestones, tasks, problems, time, costs, etc. in Huayan Rubik's cube, we can build the required objects and fields through visual modeling tools, for example, we can set the name, expiration date and status of the task, which can be configured in a few days by clicking the mouse.
+![project management](/docs/images/project_management.png)
 
 
-[Steedos Platform ](https://www.steedos.com/help/)
+- **项目集**：集中管理所有项目，一个项目可能属于某个项目集，也可能不属于任何一个项目集，但任何一个项目集中都一定包含项目。在项目集里，能够直接看到所有项目运行的状态。
 
-## Requirements
+- **项目**：项目集里面所有的具体项目，能直观地预览每一个项目的运行状态，如果项目比较多，可以使用筛选功能快速查找。
 
-- [Node.js](https://nodejs.org/en/download/) version >= 10.15.1 or above (which can be checked by running `node -v`). You can use [nvm](https://github.com/nvm-sh/nvm) for managing multiple Node versions on a single machine installed
-- [Yarn](https://yarnpkg.com/en/) version >= 1.5 (which can be checked by running `yarn version`). Yarn is a performant package manager for JavaScript and replaces the `npm` client. It is not strictly necessary but highly encouraged.
+![project](/docs/images/project.png)
 
 
-## Project structure
+- **里程碑**：里程碑通常在项目的计划阶段设置，并随着项目的进展而不断更新。它们是可视的参考点，可以将项目分解成可管理的、可控的阶段，以此创建有序的结点，来帮助项目经理和团队锚定项目。
 
-```sh
-project-management-app
-├── steedos-app/main/default
-│   ├── applications
-│   │   └── project.app.yml
-│   └── objects
-│       └── project
-│           ├── fields
-│           │   └── name.field.yml
-│           │   └── description.field.yml
-│           │   └── isDone.field.yml
-│           │   └── ...
-│           ├── listviews
-│           │   └── all.listview.yml
-│           │   └── recent.listview.yml
-│           ├── permissions
-│           │   └── user.permission.yml
-│           │   └── admin.permission.yml
-│           └── todo.object.yml
-│       └── ...
-│   └── ...
-├── .env
-├── .gitignore
-├── package.json
-├── README.md
-├── server.js
-├── steedos-config.yml
-└── yarn.lock
-```
+- **项目任务**：项目任务管理需要同时管理多个项目任务派发、实时响应和进度更新；记录每个任务所需资源、预估工时和实际工时、关联文档及相关问题等；同时还能跟踪任务实时进度、状态，反映任务的变更历史。
 
-## Project operation
+- **用时**：一个项目从发生到结束的总时长，可以直接关联到具体的项目，对比实际用时与计划用时，分析原因。
 
-The source code of the project depends on nodejs environment. To use mongodb database, the corresponding running environment should be deployed first.
+- **费用**：几乎每一个项目都会产生相应的费用，可以直接关联到具体的任务，方便后期查询每一个项目的费用明细。
 
-  1. Start the database  
-  2. Install dependent packages
-  3. Running project
-  4. Using browser access `http://127.0.0.1:5000/`    For the first time, the database is empty. You need to register an account and choose to create an enterprise.
+- **会议**：每一个项目都会有相应的会议，确定会议主题后，可以直接选择关联到某一个项目。
 
+- **问题**：在新建问题时，由于在同一时段内可能会出现多个问题，所以新建问题时可以设置问题的优先级。
+
+- **日志**：每一个项目在进行中或者结束后，都可以快速创建日志，以便有效地的把控每一个项目。
+
+## 关于华炎魔方
+
+华炎魔方是一套可视化建模、描述式编程的开发工具。设计目标是降低应用构建门槛，让每个人都能参与开发。系统内置了数据建模以及一系列自动化工具，包括验证规则、公示计算、工作流规则、自动化操作、批准过程、报表引擎等等。
+
+基于华炎魔方开发的软件包，基于元数据驱动，可以根据客户需求灵活定制。开发完成后可以生成项目源码或打包成软件包，实现快速部署和安装。
+
+例如本项目管理系统，需要管理项目、里程碑、任务、问题、用时、费用等等，在华炎魔方中我们就可以通过可视化的建模工具构建所需的对象和字段，例如可以设置任务的名称、到期日期、状态等，只需点击鼠标，几天的时间就能配置出非常专业的项目管理系统。
+
+[华炎魔方文档](https://www.steedos.com/help/)
+
+## 项目运行
+
+项目源码依赖 nodejs 环境，使用 mongodb 数据库，需先部署相应的运行环境。
+
+1、 启动数据库
+
+2、安装依赖软件包
+yarn
+
+3、运行项目
+yarn start
+
+4、使用浏览器访问<http://127.0.0.1:5000/>
+第一次使用时，数据库为空，需注册一个账户，并选择创建一个企业。
