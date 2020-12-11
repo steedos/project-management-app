@@ -33,6 +33,46 @@
 
 [华炎魔方文档](https://www.steedos.com/help/)
 
+## Requirements
+
+- [Node.js](https://nodejs.org/en/download/) version >= 10.15.1 or above (which can be checked by running `node -v`). You can use [nvm](https://github.com/nvm-sh/nvm) for managing multiple Node versions on a single machine installed
+- [Yarn](https://yarnpkg.com/en/) version >= 1.5 (which can be checked by running `yarn version`). Yarn is a performant package manager for JavaScript and replaces the `npm` client. It is not strictly necessary but highly encouraged.
+
+
+## Project structure
+
+Assuming you chose the classic template and named your site my-app, you will see the following files generated under a new directory my-app/:
+
+```sh
+project-management-app
+├── steedos-app/main/default
+│   ├── applications
+│   │   └── project.app.yml
+│   └── objects
+│       └── todo
+│           ├── buttons
+│           │   └── markDone.button.yml
+│           │   └── markDone.button.js
+│           ├── fields
+│           │   └── name.field.yml
+│           │   └── description.field.yml
+│           │   └── isDone.field.yml
+│           ├── listviews
+│           │   └── all.listview.yml
+│           │   └── recent.listview.yml
+│           ├── permissions
+│           │   └── user.permission.yml
+│           │   └── admin.permission.yml
+│           └── todo.object.yml
+├── .env
+├── .gitignore
+├── package.json
+├── README.md
+├── server.js
+├── steedos-config.yml
+└── yarn.lock
+```
+
 ## 项目运行
 
 项目源码依赖 nodejs 环境，使用 mongodb 数据库，需先部署相应的运行环境。
