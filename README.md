@@ -41,8 +41,6 @@
 
 ## Project structure
 
-Assuming you chose the classic template and named your site my-app, you will see the following files generated under a new directory my-app/:
-
 ```sh
 project-management-app
 ├── steedos-app/main/default
