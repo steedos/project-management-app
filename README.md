@@ -4,7 +4,7 @@
 
 帮助您跟踪和管理项目，里程碑，任务，已阻止的任务，逾期任务，时间，费用预算，并具有详细的报表功能。系统是基于华炎魔方平台，基于元数据驱动，可以快速自定义。
 
-![project_detail](/docs/images/project_detail.jpg)
+![项目详细界面](/docs/images/project_detail.jpg)
 
 
 ## ✨系统功能
