@@ -1,4 +1,4 @@
-## Steedos project management system
+## Steedos Project Management System
 
 [中文](https://github.com/steedos/project-management-app) / [English](https://github.com/steedos/project-management-app/blob/master/README_en.md)
 
