@@ -1,24 +1,15 @@
-# 开源项目管理系统
+# 华炎魔方项目管理系统
 
-本项目是基于华炎魔方平台，使用无代码模式开发的项目管理系统。帮助您跟踪和管理项目，里程碑，任务，已阻止的任务，逾期任务，时间，费用预算，并具有详细的报表功能。
+帮助您跟踪和管理项目，里程碑，任务，已阻止的任务，逾期任务，时间，费用预算，并具有详细的报表功能。系统是基于华炎魔方平台，基于元数据驱动，可以快速自定义。
 
-## 什么是项目管理
+![project](/docs/images/project.png)
 
-项目管理，是指项目管理者在有限的资源约束下，运用系统的观点，方法和理论，对项目所涉及的全部工作，进行有效的管理。为使项目获得成功，必须对项目的工作范围、可能风险、需要资源(人、硬件／软件)、要实现的任务、经历的里程碑、花费工作量(成本)、进度安排等做到心中有数。
 
-## 华炎魔方项目管理系统
-
-项目管理者通常会借助项目管理系统来管理项目，使用华炎魔方的可视化建模和描述式编程模式工具，无需编写任何代码，只需简单点击鼠标，就能构建专业的项目管理系统。开发完的系统还能生成项目源码，实现快速安装部署。
-
-![project management](/docs/images/project_management.png)
-
+## ✨系统功能
 
 - **项目集**：集中管理所有项目，一个项目可能属于某个项目集，也可能不属于任何一个项目集，但任何一个项目集中都一定包含项目。在项目集里，能够直接看到所有项目运行的状态。
 
 - **项目**：项目集里面所有的具体项目，能直观地预览每一个项目的运行状态，如果项目比较多，可以使用筛选功能快速查找。
-
-![project](/docs/images/project.png)
-
 
 - **里程碑**：里程碑通常在项目的计划阶段设置，并随着项目的进展而不断更新。它们是可视的参考点，可以将项目分解成可管理的、可控的阶段，以此创建有序的结点，来帮助项目经理和团队锚定项目。
 
@@ -38,11 +29,47 @@
 
 华炎魔方是一套可视化建模、描述式编程的开发工具。设计目标是降低应用构建门槛，让每个人都能参与开发。系统内置了数据建模以及一系列自动化工具，包括验证规则、公示计算、工作流规则、自动化操作、批准过程、报表引擎等等。
 
-基于华炎魔方开发的软件包，基于元数据驱动，可以根据客户需求灵活定制。开发完成后可以生成项目源码或打包成软件包，实现快速部署和安装。
-
-例如本项目管理系统，需要管理项目、里程碑、任务、问题、用时、费用等等，在华炎魔方中我们就可以通过可视化的建模工具构建所需的对象和字段，例如可以设置任务的名称、到期日期、状态等，只需点击鼠标，几天的时间就能配置出非常专业的项目管理系统。
+例如本系统，需要管理项目、里程碑、任务、问题、用时、费用等等，在华炎魔方中我们就可以通过可视化的建模工具构建所需的对象和字段，例如可以设置任务的名称、到期日期、状态等，只需点击鼠标，几天的时间就能配置出来。
 
 [华炎魔方文档](https://www.steedos.com/help/)
+
+## Requirements
+
+- [Node.js](https://nodejs.org/en/download/) version >= 10.15.1 or above (which can be checked by running `node -v`). You can use [nvm](https://github.com/nvm-sh/nvm) for managing multiple Node versions on a single machine installed
+- [Yarn](https://yarnpkg.com/en/) version >= 1.5 (which can be checked by running `yarn version`). Yarn is a performant package manager for JavaScript and replaces the `npm` client. It is not strictly necessary but highly encouraged.
+
+
+## Project structure
+
+```sh
+project-management-app
+├── steedos-app/main/default
+│   ├── applications
+│   │   └── project.app.yml
+│   └── objects
+│       └── todo
+│           ├── buttons
+│           │   └── markDone.button.yml
+│           │   └── markDone.button.js
+│           ├── fields
+│           │   └── name.field.yml
+│           │   └── description.field.yml
+│           │   └── isDone.field.yml
+│           ├── listviews
+│           │   └── all.listview.yml
+│           │   └── recent.listview.yml
+│           ├── permissions
+│           │   └── user.permission.yml
+│           │   └── admin.permission.yml
+│           └── todo.object.yml
+├── .env
+├── .gitignore
+├── package.json
+├── README.md
+├── server.js
+├── steedos-config.yml
+└── yarn.lock
+```
 
 ## 项目运行
 
@@ -51,10 +78,17 @@
 1、 启动数据库
 
 2、安装依赖软件包
+
+```
 yarn
+```
 
 3、运行项目
-yarn start
 
-4、使用浏览器访问<http://127.0.0.1:5000/>
+```
+yarn start
+```
+
+4、使用浏览器访问 http://127.0.0.1:5000/
+
 第一次使用时，数据库为空，需注册一个账户，并选择创建一个企业。
