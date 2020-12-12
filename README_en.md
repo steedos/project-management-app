@@ -26,10 +26,10 @@ Help you track and manage projects, milestones, tasks, blocked tasks, overdue ta
 
 About  Steedos Platform
 Steedos Platform is a visual modeling and descriptive programming development tool. The design goal is to lower the threshold of application construction so that everyone can participate in the development. The system has built-in data modeling and a series of automatic tools, including validation rules, public computing, workflow rules, automatic operation, approval process, report engine and so on.
-For example, the system needs to manage projects, milestones, tasks, problems, time, costs, etc. in Huayan Rubik's cube, we can build the required objects and fields through visual modeling tools, for example, we can set the name, expiration date and status of the task, which can be configured in a few days by clicking the mouse.
+For example, the system needs to manage projects, milestones, tasks, problems, time, costs, etc. in Steedos Platform, we can build the required objects and fields through visual modeling tools, for example, we can set the name, expiration date and status of the task, which can be configured in a few days by clicking the mouse.
 
 
-[Steedos Platform ](https://www.steedos.com/help/)
+[Steedos Platform](https://www.steedos.com/help/)
 
 ## Requirements
 
