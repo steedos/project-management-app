@@ -33,13 +33,13 @@
 
 [华炎魔方文档](https://www.steedos.com/help/)
 
-## Requirements
+## 依赖包
 
 - [Node.js](https://nodejs.org/en/download/) version >= 10.15.1 or above (which can be checked by running `node -v`). You can use [nvm](https://github.com/nvm-sh/nvm) for managing multiple Node versions on a single machine installed
 - [Yarn](https://yarnpkg.com/en/) version >= 1.5 (which can be checked by running `yarn version`). Yarn is a performant package manager for JavaScript and replaces the `npm` client. It is not strictly necessary but highly encouraged.
 
 
-## Project structure
+## 项目目录
 
 ```sh
 project-management-app
