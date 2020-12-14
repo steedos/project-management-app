@@ -94,3 +94,13 @@ yarn start
 4、使用浏览器访问 http://127.0.0.1:5000/
 
 第一次使用时，数据库为空，需注册一个账户，并选择创建一个企业。
+
+如果您有任何疑问或想与其他华炎魔方用户交谈，请[点击进入讨论](https://github.com/steedos/steedos-platform/discussions)
+## 或加入我们的开发人员微信群
+![开发者微信交流群](/docs/images/QR_wechat_developers.jpg)
+
+## 商务咨询
+![商务咨询群](/docs/images/Business_Consulting.jpg)
+
+## 微信公众号
+![微信公众号](/docs/images/Public_Number.jpg)
