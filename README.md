@@ -49,21 +49,26 @@ project-management-app
 │   ├── applications
 │   │   └── project.app.yml
 │   └── objects
-│       └── todo
+│       └── project-c
 │           ├── buttons
-│           │   └── markDone.button.yml
-│           │   └── markDone.button.js
+│           │   └── print.button.yml
+│           │   └── print.button.js
 │           ├── fields
 │           │   └── name.field.yml
 │           │   └── description.field.yml
 │           │   └── isDone.field.yml
+│           │   └── status__c.field
+│           │   └── ...
 │           ├── listviews
 │           │   └── all.listview.yml
 │           │   └── recent.listview.yml
+│           │   └── my.listview.yml
 │           ├── permissions
 │           │   └── user.permission.yml
 │           │   └── admin.permission.yml
-│           └── todo.object.yml
+│           │   └── project_manager.permission.yml
+│           └── project.object.yml
+│           └──...
 ├── .env
 ├── .gitignore
 ├── package.json
