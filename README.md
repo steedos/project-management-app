@@ -1,4 +1,4 @@
-# 华炎魔方项目管理系统
+# 项目管理系统案例
 
 [中文](https://github.com/steedos/project-management-app) / [English](https://github.com/steedos/project-management-app/blob/master/README_en.md)
 
