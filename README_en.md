@@ -2,15 +2,15 @@
 
 [中文](https://github.com/steedos/project-management-app) / [English](https://github.com/steedos/project-management-app/blob/master/README_en.md)
 
-Help you track and manage projects, milepost, tasks, blocked tasks, overdue tasks, time, cost, and has detailed reporting functions. The system is based on Steedos Platform and metadata driven, which can be quickly customized.
+Help you track and manage projects, milestones, tasks, blocked tasks, overdue tasks, time, cost, and has detailed reporting functions. The system is based on Steedos Platform and metadata driven, which can be quickly customized.
 
 ## Features
 
-- **Project Set**: Centralized management of all projects, a project may or may not belong to a project set, but any project set must contain projects. In the project set, you can directly see the running status of all projects.
+- **Project Program**: Centralized management of all projects, a project may or may not belong to a project program, but any project program must contain projects. In the project program, you can directly see the running status of all projects.
 - **Project**: For all the specific projects in the project set, the running status of each project can be visually previewed. If there are many projects, you can use the filter function to quickly search.
-- **Milepost**: Milepost are usually set in the planning phase of a project and are updated as the project progresses. They are visual reference points, which can decompose the project into manageable and controllable phases to create orderly nodes to help project managers and teams anchor projects.
+- **Milestone**: Milestones are usually set in the planning phase of a project and are updated as the project progresses. They are visual reference points, which can decompose the project into manageable and controllable phases to create orderly nodes to help project managers and teams anchor projects.
 - **Project Tasks**: Project task management needs to manage the distribution, real-time response and progress update of multiple project tasks at the same time; record the required resources, estimated and actual work hours, associated documents and related issues of each task; at the same time, it can track the real-time progress and status of tasks, and reflect the change history of tasks.
-- **Time Spent**: The total time from the occurrence to the end of a project can be directly related to a specific project. Compare the actual time consumption with the planned time, and analyze the reasons.
+- **Time**: The total time from the occurrence to the end of a project can be directly related to a specific project. Compare the actual time consumption with the planned time, and analyze the reasons.
 - **Cost**: Almost every project will generate corresponding expenses, which can be directly related to specific tasks, so as to facilitate the later query of the cost details of each project.
 - **Meeting**: Each project will have a corresponding meeting. After determining the meeting theme, you can directly select to associate it to a project.
 - **Issue**: When you create a new issue, you can set the priority of the problem because multiple problems may occur in the same period of time.
