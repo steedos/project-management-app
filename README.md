@@ -97,7 +97,7 @@ yarn start
 
 ## 保持联系
 
-如果您有任何疑问或想与其他华炎魔方用户交谈，请[点击进入讨论](https://github.com/steedos/steedos-platform/discussions)或扫码添加以下联系方式与我们联系。
+如果您有任何疑问或想与其他华炎魔方用户交谈，请[点击进入讨论](https://github.com/steedos/steedos-platform/discussions)或扫码添加以下联系方式与我们联系！
 #### 开发人员微信群
 ![开发者微信交流群](/docs/images/QR_wechat_developers.jpg)
 
