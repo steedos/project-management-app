@@ -4,7 +4,7 @@
 
 Help you track and manage projects, milepost, tasks, blocked tasks, overdue tasks, time, cost, and has detailed reporting functions. The system is based on Steedos Platform and metadata driven, which can be quickly customized.
 
-![Project Detail Interface](/docs/images/project_detail.jpg)111
+![Project Detail Interface](/docs/images/project_detail.jpg)
 ## Features
 
 - **Project Program**: Centralized management of all projects, a project may or may not belong to a project program, but any project program must contain projects. In the project program, you can directly see the running status of all projects.
