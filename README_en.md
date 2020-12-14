@@ -63,7 +63,7 @@ project-management-app
 └── yarn.lock
 ```
 
-## Project Operation
+##  Quick Start
 
 The source code of the project depends on nodejs environment. To use mongodb database, the corresponding running environment should be deployed first.
 
@@ -71,3 +71,7 @@ The source code of the project depends on nodejs environment. To use mongodb dat
   2. Install dependent packages
   3. Running project
   4. Using browser access `http://127.0.0.1:5000/`    For the first time, the database is empty. You need to register an account and choose to create an enterprise.
+
+## Keep in Contact
+
+If you have any questions or want to talk to other users of Steedos Platform , please jump to GitHub for discussion [Click to Discuss](https://github.com/steedos/steedos-platform/discussions) or [Join me on Slack-it's a faster,simpler way to work](https://join.slack.com/t/steedos/shared_invite/zt-jq7eupr9-cgKrUOyWb1zymniRzhH4jg).
