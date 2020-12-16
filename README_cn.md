@@ -51,7 +51,7 @@ project-management-app
 │   ├── applications
 │   │   └── project.app.yml
 │   └── objects
-│       └── project
+│       └── project__c
 │           ├── buttons
 │           │   └── print.button.yml
 │           │   └── print.button.js
@@ -80,7 +80,7 @@ project-management-app
 └── yarn.lock
 ```
 
-## 项目运行    
+## 项目运行
 
 项目源码依赖 nodejs 环境，使用 mongodb 数据库，需先部署相应的运行环境。
 
