@@ -2,7 +2,7 @@
 
 ## Steedos Project Management System
 
-[中文](https://github.com/steedos/project-management-app) / [English](https://github.com/steedos/project-management-app/blob/master/README_en.md)
+[中文](https://github.com/steedos/project-management-app/blob/master/README_cn.md) / [English](https://github.com/steedos/project-management-app/blob/master/README.md)
 
 Help you track and manage projects, milestones, tasks, blocked tasks, overdue tasks, time, cost, and has detailed reporting functions. The system is based on Steedos Platform and metadata driven, which can be quickly customized.
 
