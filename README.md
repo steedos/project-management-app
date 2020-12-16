@@ -41,7 +41,7 @@ project-management-app
 │   ├── applications
 │   │   └── project.app.yml
 │   └── objects
-│       └── project
+│       └──project__c
 │           ├── buttons
 │           │   └── print.button.yml
 │           │   └── print.button.js
