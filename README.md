@@ -1,10 +1,11 @@
+
 # 项目管理系统案例
 
 [中文](https://github.com/steedos/project-management-app) / [English](https://github.com/steedos/project-management-app/blob/master/README_en.md)
 
 帮助您跟踪和管理项目，里程碑，任务，已阻止的任务，逾期任务，时间，费用预算，并具有详细的报表功能。系统使用华炎魔方平台可视化配置实现，基于元数据驱动，可以快速自定义。
 
-![项目详细界面](/docs/images/project_detail.jpg)
+![项目详细界面](https://steedos.github.io/assets/github/project_management_app/cn/project_detail.jpg)
 
 
 ## ✨系统功能
@@ -29,14 +30,15 @@
 
 ## 关于华炎魔方
 
-华炎魔方是一套可视化建模、描述式编程的开发工具。设计目标是降低应用构建门槛，让每个人都能参与开发。系统内置了数据建模以及一系列自动化工具，包括验证规则、公示计算、工作流规则、自动化操作、批准过程、报表引擎等等。
+华炎魔方是一套可视化建模、描述式编程的开发工具。设计目标是降低应用构建门槛，让每个人都能参与开发。系统内置了数据建模以及一系列自动化工具，包括验证规则、公式计算、工作流规则、自动化操作、批准过程、报表引擎等等。
 
-例如本系统，需要管理项目、里程碑、任务、问题、用时、费用等等，在华炎魔方中我们就可以通过可视化的建模工具构建所需的对象和字段，例如可以设置任务的名称、到期日期、状态等，只需点击鼠标，几天的时间就能配置出来。
+[演示视频](https://www-steedos-com.oss-accelerate.aliyuncs.com/videos/steedos/steedos-open-source.mp4)
 
 [华炎魔方文档](https://www.steedos.com/help/)
 
 ## 依赖包
 
+- [MongoDB](https://www.mongodb.com/try/download/) version >= 3.4. MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era.
 - [Node.js](https://nodejs.org/en/download/) version >= 10.15.1 or above (which can be checked by running `node -v`). You can use [nvm](https://github.com/nvm-sh/nvm) for managing multiple Node versions on a single machine installed
 - [Yarn](https://yarnpkg.com/en/) version >= 1.5 (which can be checked by running `yarn version`). Yarn is a performant package manager for JavaScript and replaces the `npm` client. It is not strictly necessary but highly encouraged.
 
@@ -49,7 +51,7 @@ project-management-app
 │   ├── applications
 │   │   └── project.app.yml
 │   └── objects
-│       └── project-c
+│       └── project
 │           ├── buttons
 │           │   └── print.button.yml
 │           │   └── print.button.js
@@ -78,7 +80,7 @@ project-management-app
 └── yarn.lock
 ```
 
-## 项目运行
+## 项目运行    
 
 项目源码依赖 nodejs 环境，使用 mongodb 数据库，需先部署相应的运行环境。
 
@@ -104,10 +106,10 @@ yarn start
 
 如果您有任何疑问或想与其他华炎魔方用户交谈，请[点击进入讨论](https://github.com/steedos/steedos-platform/discussions)或扫码添加以下联系方式与我们联系！
 ##### 开发人员微信群
-![开发者微信交流群](/docs/images/QR_wechat_developers.jpg)
+![开发者微信交流群](https://steedos.github.io/assets/github/project_management_app/cn/QR_wechat_developers.jpg)
 
 ##### 商务咨询
-![商务咨询](/docs/images/Business_Consulting.jpg)
+![商务咨询](https://steedos.github.io/assets/github/project_management_app/cn/Business_Consulting.jpg)
 
 ##### 微信公众号
-![微信公众号](/docs/images/Public_Number.jpg)
+![微信公众号](https://steedos.github.io/assets/github/project_management_app/cn/Public_Number.jpg)
