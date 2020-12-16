@@ -20,13 +20,13 @@ Help you track and manage projects, milestones, tasks, blocked tasks, overdue ta
 ## About  Steedos Platform
 
 Steedos Platform is a visual modeling and descriptive programming development tool. The design goal is to lower the threshold of application construction so that everyone can participate in the development. The system has built-in data modeling and a series of automatic tools, including validation rules, public computing, workflow rules, automatic operation, approval process, report engine and so on.
-For example, the system needs to manage projects, milestones, tasks, problems, time, costs, etc. in Steedos Platform, we can build the required objects and fields through visual modeling tools, for example, we can set the name, expiration date and status of the task, which can be configured in a few days by clicking the mouse.
 
-
+[Demo video](https://www-steedos-com.oss-accelerate.aliyuncs.com/videos/steedos/steedos-open-source.mp4)
 [Steedos Platform](https://www.steedos.com/help/)
 
 ## Requirements
 
+- [MongoDB](https://www.mongodb.com/try/download/) version >= 3.4. MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era.
 - [Node.js](https://nodejs.org/en/download/) version >= 10.15.1 or above (which can be checked by running `node -v`). You can use [nvm](https://github.com/nvm-sh/nvm) for managing multiple Node versions on a single machine installed.
 - [Yarn](https://yarnpkg.com/en/) version >= 1.5 (which can be checked by running `yarn version`). Yarn is a performant package manager for JavaScript and replaces the `npm` client. It is not strictly necessary but highly encouraged.
 
@@ -39,7 +39,7 @@ project-management-app
 │   ├── applications
 │   │   └── project.app.yml
 │   └── objects
-│       └── project-c
+│       └── project
 │           ├── buttons
 │           │   └── print.button.yml
 │           │   └── print.button.js
