@@ -1,12 +1,15 @@
 name: estimated_expense__c
+defaultValue: null
+description: null
 filterable: false
 group: 费用
-hidden: false
+hidden: true
 index: false
+inlineHelpText: null
 is_name: false
 is_wide: false
 label: 预估费用
-omit: false
+omit: true
 precision: 18
 readonly: false
 required: false

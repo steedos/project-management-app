@@ -2,7 +2,6 @@ name: account__c
 defaultValue: null
 description: null
 filterable: true
-filtersFunction: null
 group: null
 hidden: false
 index: false
@@ -10,13 +9,10 @@ inlineHelpText: null
 is_name: false
 is_wide: false
 label: 客户
-multiple: false
 omit: false
-optionsFunction: null
 readonly: false
-reference_to: accounts
 required: false
 searchable: true
 sort_no: 115
 sortable: false
-type: lookup
+type: text

@@ -1,10 +1,9 @@
 name: total_hours__c
-data_type: number
 defaultValue: null
 description: null
 filterable: false
 group: 用时
-hidden: false
+hidden: true
 index: false
 inlineHelpText: null
 is_name: false
@@ -18,7 +17,4 @@ scale: 2
 searchable: false
 sort_no: 225
 sortable: false
-summary_field: hours__c
-summary_object: project_time__c
-summary_type: sum
-type: summary
+type: currency

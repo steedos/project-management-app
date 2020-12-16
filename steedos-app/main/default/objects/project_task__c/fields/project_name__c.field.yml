@@ -11,7 +11,7 @@ index: false
 inlineHelpText: null
 is_name: false
 is_wide: false
-label: 项目
+label: 项目名称
 omit: true
 readonly: false
 required: false

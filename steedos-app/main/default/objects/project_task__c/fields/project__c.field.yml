@@ -1,4 +1,4 @@
-name: project_milestone__c
+name: project__c
 defaultValue: null
 description: null
 filterable: true
@@ -9,14 +9,13 @@ index: false
 inlineHelpText: null
 is_name: false
 is_wide: false
-label: 里程碑
-multiple: false
+label: 项目
 omit: false
 optionsFunction: null
 readonly: false
-reference_to: project_milestone__c
-required: false
+reference_to: project__c
+required: true
 searchable: false
-sort_no: 105
+sort_no: 112
 sortable: true
-type: lookup
+type: master_detail

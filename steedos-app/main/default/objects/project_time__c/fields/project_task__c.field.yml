@@ -10,6 +10,7 @@ inlineHelpText: null
 is_name: false
 is_wide: false
 label: 任务
+multiple: false
 omit: false
 optionsFunction: null
 readonly: false
@@ -18,4 +19,4 @@ required: true
 searchable: false
 sort_no: 120
 sortable: true
-type: master_detail
+type: lookup

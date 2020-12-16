@@ -16,7 +16,7 @@ mobile_objects:
   - project_expense__c
   - project_meeting__c
   - project_issue__c
-  - project_log__c
+  - reports
 oauth2_enabled: false
 oauth2_logout_enabled: false
 objects:
@@ -29,6 +29,7 @@ objects:
   - project_meeting__c
   - project_issue__c
   - project_log__c
+  - reports
 saml_enabled: false
 saml_logout_enabled: false
 sort: 9100

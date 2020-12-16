@@ -13,13 +13,7 @@ columns:
   - field: deadline__c
     width: '150'
     wrap: false
-  - field: open_tasks_it__c
-    width: '100'
-    wrap: false
-  - field: open_issues__c
-    width: '100'
-    wrap: false
-  - field: total_hours__c
+  - field: owner
     width: '100'
     wrap: false
 filter_fields:

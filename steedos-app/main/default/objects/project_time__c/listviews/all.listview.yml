@@ -2,9 +2,7 @@ name: all
 columns:
   - field: name
     wrap: false
-  - field: project__c
-    wrap: false
-  - field: project_task__c
+  - field: project_id__c
     wrap: false
   - field: incurred_by__c
     width: '150'

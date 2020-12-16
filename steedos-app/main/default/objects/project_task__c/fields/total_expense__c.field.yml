@@ -1,10 +1,9 @@
 name: total_expense__c
-data_type: currency
 defaultValue: null
 description: null
 filterable: false
 group: 费用
-hidden: false
+hidden: true
 index: false
 inlineHelpText: null
 is_name: false
@@ -18,7 +17,4 @@ scale: 2
 searchable: false
 sort_no: 250
 sortable: false
-summary_field: amount__c
-summary_object: project_expense__c
-summary_type: sum
-type: summary
+type: currency

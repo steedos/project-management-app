@@ -3,13 +3,13 @@ defaultValue: null
 description: null
 filterable: false
 group: 用时
-hidden: false
+hidden: true
 index: false
 inlineHelpText: null
 is_name: false
 is_wide: false
 label: 预估耗时
-omit: false
+omit: true
 precision: 18
 readonly: false
 required: false

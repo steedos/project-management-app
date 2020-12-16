@@ -2,7 +2,7 @@ name: my
 columns:
   - field: name
     wrap: false
-  - field: project__c
+  - field: project_id__c
     wrap: false
   - field: project_task__c
     wrap: false
@@ -21,8 +21,7 @@ filter_fields:
   - incurred_date__c
   - hours__c
   - project_task__c
-filter_scope: space
-filters: []
+filter_scope: mine
 label: 我的
 scrolling_mode: standard
 shared: true

@@ -2,9 +2,7 @@ name: all
 columns:
   - field: name
     wrap: false
-  - field: project_name__c
-    wrap: false
-  - field: project_milestone__c
+  - field: project__c
     wrap: false
   - field: assignees__c
     width: '150'
@@ -23,7 +21,7 @@ columns:
     wrap: false
 filter_fields:
   - name
-  - project_milestone__c
+  - project__c
   - assignees__c
   - due_date__c
   - priority__c

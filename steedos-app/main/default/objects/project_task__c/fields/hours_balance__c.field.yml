@@ -6,7 +6,7 @@ filterable: false
 formula: estimated_hours__c - total_hours__c
 formula_blank_value: zeroes
 group: 用时
-hidden: false
+hidden: true
 index: false
 inlineHelpText: null
 is_name: false

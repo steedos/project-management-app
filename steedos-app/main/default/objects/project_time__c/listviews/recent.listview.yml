@@ -2,7 +2,7 @@ name: recent
 columns:
   - field: name
     wrap: false
-  - field: project__c
+  - field: project_id__c
     wrap: false
   - field: project_task__c
     wrap: false
@@ -18,8 +18,8 @@ columns:
   - field: description__c
     wrap: false
 filter_scope: space
-filters: []
 label: 最近查看
 scrolling_mode: standard
 shared: true
+show_count: false
 type: grid

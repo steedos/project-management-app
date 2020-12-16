@@ -2,9 +2,7 @@ name: recent
 columns:
   - field: name
     wrap: false
-  - field: project_name__c
-    wrap: false
-  - field: project_milestone__c
+  - field: project__c
     wrap: false
   - field: assignees__c
     width: '150'
@@ -33,7 +31,5 @@ shared: true
 show_count: false
 sort:
   - field_name: due_date__c
-    order: asc
-  - field_name: project_name__c
     order: asc
 type: grid

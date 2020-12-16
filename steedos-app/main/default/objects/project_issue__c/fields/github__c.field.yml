@@ -8,7 +8,7 @@ index: false
 inlineHelpText: null
 is_name: false
 is_wide: true
-label: Github地址
+label: 外部URL
 omit: false
 readonly: false
 required: false

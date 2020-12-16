@@ -31,5 +31,4 @@ tenant:
   enable_bind_mobile: false
 plugins:
   - "@steedos/accounts"
-  - "@steedos/app-contracts"
   - "@steedos/metadata-api"
