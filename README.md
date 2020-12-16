@@ -23,8 +23,7 @@ Help you track and manage projects, milestones, tasks, blocked tasks, overdue ta
 
 Steedos Platform is a visual modeling and descriptive programming development tool. The design goal is to lower the threshold of application construction so that everyone can participate in the development. The system has built-in data modeling and a series of automatic tools, including validation rules, public computing, workflow rules, automatic operation, approval process, report engine and so on.
 
-- [Demo Video](https://www-steedos-com.oss-accelerate.aliyuncs.com/videos/steedos/steedos-open-source.mp4)
-- [Steedos Platform](https://www.steedos.com/help/)
+- [Steedos Platform](https://www.steedos.org/)
 
 ## Requirements
 
