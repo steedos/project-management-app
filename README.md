@@ -1,12 +1,12 @@
 
 <p align="center">
   <a href="https://www.steedos.org">
-    <img alt="Project Management System
+    <img alt="Steedos Project Management System
 " src="https://steedos.github.io/assets/logo.png" width="120" />
   </a>
 </p>
 <h1 align="center">
-  Project Management System
+  Steedos Project Management System
 
 </h1>
 
