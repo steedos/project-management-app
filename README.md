@@ -11,7 +11,7 @@
 </h1>
 
 <p align="center">
-<a href="https://github.com/steedos/project-management-app/blob/master/README.md">English</a>
+<a href="https://github.com/steedos/project-management-app/blob/master/README_cn.md">中文</a>
 <a href="https://github.com/steedos/project-management-app/issues/"> · 报告错误</a>
 <a href="https://github.com/steedos/steedos-platform/discussions"> · 讨论</a>
 </p>
@@ -26,8 +26,6 @@
 </h3>
 
 ## Steedos Project Management System
-
-[中文](https://github.com/steedos/project-management-app/blob/master/README_cn.md) / [English](https://github.com/steedos/project-management-app/blob/master/README.md)
 
 ![Project Detail Interface](https://steedos.github.io/assets/github/project_management_app/cn/project_detail.jpg)
 ## Features
