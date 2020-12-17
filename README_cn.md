@@ -1,4 +1,8 @@
 
+<center>
+<img src="https://steedos.github.io/assets/logo.png" style="width:100px" />
+</center>
+
 # 项目管理系统案例
 
 [中文](https://github.com/steedos/project-management-app/blob/master/README_cn.md) / [English](https://github.com/steedos/project-management-app/blob/master/README.md)
@@ -108,7 +112,7 @@ yarn start
 ![开发者微信交流群](https://steedos.github.io/assets/github/project_management_app/cn/QR_wechat_developers.jpg)
 
 ##### 商务咨询
-![商务咨询](https://steedos.github.io/assets/github/project_management_app/cn/Business_Consulting.jpg)
+![商务咨询](https://steedos.github.io/assets/github/project_management_app/cn/business_consulting.jpg)
 
 ##### 微信公众号
-![微信公众号](https://steedos.github.io/assets/github/project_management_app/cn/Public_Number.jpg)
+![微信公众号](https://www.steedos.com/assets/github/platform/cn/public_number.jpg)
