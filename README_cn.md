@@ -10,7 +10,7 @@
 
 <p align="center">
 <a href="https://github.com/steedos/project-management-app/blob/master/README.md">English</a>
-<a href="https://github.com/steedos/steedos-platform/issues/"> · 报告错误</a>
+<a href="https://github.com/steedos/project-management-app/issues/"> · 报告错误</a>
 <a href="https://github.com/steedos/steedos-platform/discussions"> · 讨论</a>
 </p>
 
