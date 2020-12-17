@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center">
-<a href="https://github.com/steedos/steedos-platform/blob/1.22/README.md">English</a>
+<a href="https://github.com/steedos/project-management-app/blob/master/README.md">English</a>
 <a href="https://github.com/steedos/steedos-platform/issues/"> · 报告错误</a>
 <a href="https://github.com/steedos/steedos-platform/discussions"> · 讨论</a>
 </p>
@@ -23,8 +23,6 @@
 </h3>
 
 # 项目管理系统案例
-
-[中文](https://github.com/steedos/project-management-app/blob/master/README_cn.md) / [English](https://github.com/steedos/project-management-app/blob/master/README.md)
 
 帮助您跟踪和管理项目，里程碑，任务，已阻止的任务，逾期任务，时间，费用预算，并具有详细的报表功能。系统使用华炎魔方平台可视化配置实现，基于元数据驱动，可以快速自定义。
 
