@@ -8,6 +8,20 @@
   华炎魔方
 </h1>
 
+<p align="center">
+<a href="https://github.com/steedos/steedos-platform/blob/1.22/README.md">English</a>
+<a href="https://github.com/steedos/steedos-platform/issues/"> · 报告错误</a>
+<a href="https://github.com/steedos/steedos-platform/discussions"> · 讨论</a>
+</p>
+
+<p align="center" style="border-top: solid 1px #cccccc">
+  华炎魔方是一套可视化建模、描述式编程的低代码开发平台，只需点击鼠标，就能轻松便捷地创建智能化、移动化的企业应用程序。
+</p>
+
+<h3 align="center">
+ 🤖 🎨 🚀
+</h3>
+
 # 项目管理系统案例
 
 [中文](https://github.com/steedos/project-management-app/blob/master/README_cn.md) / [English](https://github.com/steedos/project-management-app/blob/master/README.md)
