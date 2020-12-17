@@ -1,10 +1,7 @@
 name: expense_balance__c
-data_type: currency
 defaultValue: null
 description: null
 filterable: false
-formula: estimated_expense__c - total_expense__c
-formula_blank_value: zeroes
 group: 费用
 hidden: true
 index: false
@@ -20,4 +17,4 @@ scale: 2
 searchable: false
 sort_no: 290
 sortable: false
-type: formula
+type: number

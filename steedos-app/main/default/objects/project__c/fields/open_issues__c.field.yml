@@ -10,7 +10,7 @@ inlineHelpText: null
 is_name: false
 is_wide: false
 label: 待解决问题
-omit: false
+omit: true
 precision: 18
 readonly: false
 required: false

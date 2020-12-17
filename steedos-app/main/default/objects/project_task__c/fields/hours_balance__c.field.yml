@@ -1,10 +1,7 @@
 name: hours_balance__c
-data_type: number
 defaultValue: null
 description: null
 filterable: false
-formula: estimated_hours__c - total_hours__c
-formula_blank_value: zeroes
 group: 用时
 hidden: true
 index: false
@@ -20,4 +17,4 @@ scale: 2
 searchable: false
 sort_no: 240
 sortable: false
-type: formula
+type: number

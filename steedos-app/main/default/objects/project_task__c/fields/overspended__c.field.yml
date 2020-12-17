@@ -1,10 +1,7 @@
 name: overspended__c
-data_type: boolean
 defaultValue: null
 description: null
 filterable: false
-formula: expense_balance__c < 0
-formula_blank_value: zeroes
 group: null
 hidden: true
 index: false
@@ -18,4 +15,4 @@ required: false
 searchable: false
 sort_no: 205
 sortable: false
-type: formula
+type: boolean

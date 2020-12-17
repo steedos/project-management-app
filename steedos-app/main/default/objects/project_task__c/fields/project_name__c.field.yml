@@ -1,12 +1,9 @@
 name: project_name__c
-data_type: text
 defaultValue: null
 description: null
 filterable: false
-formula: project_milestone__c.project__c.name
-formula_blank_value: blanks
 group: null
-hidden: false
+hidden: true
 index: false
 inlineHelpText: null
 is_name: false
@@ -18,4 +15,4 @@ required: false
 searchable: false
 sort_no: 110
 sortable: true
-type: formula
+type: text
