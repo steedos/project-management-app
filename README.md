@@ -1,18 +1,33 @@
 
 <p align="center">
   <a href="https://www.steedos.com/cn">
-    <img alt="Steedos" src="https://steedos.github.io/assets/logo.png" width="120" />
+    <img alt="Project Management System
+" src="https://steedos.github.io/assets/logo.png" width="120" />
   </a>
 </p>
 <h1 align="center">
-  Steedos
+  Project Management System
+
 </h1>
+
+<p align="center">
+<a href="https://github.com/steedos/project-management-app/blob/master/README.md">English</a>
+<a href="https://github.com/steedos/project-management-app/issues/"> · 报告错误</a>
+<a href="https://github.com/steedos/steedos-platform/discussions"> · 讨论</a>
+</p>
+
+<p align="center" style="border-top: solid 1px #cccccc">
+  Help you track and manage projects, milestones, tasks, blocked tasks, overdue tasks, time, cost, and has detailed reporting functions. The system is based on Steedos Platform and metadata driven, which can be quickly customized.
+
+</p>
+
+<h3 align="center">
+ 🤖 🎨 🚀
+</h3>
 
 ## Steedos Project Management System
 
 [中文](https://github.com/steedos/project-management-app/blob/master/README_cn.md) / [English](https://github.com/steedos/project-management-app/blob/master/README.md)
-
-Help you track and manage projects, milestones, tasks, blocked tasks, overdue tasks, time, cost, and has detailed reporting functions. The system is based on Steedos Platform and metadata driven, which can be quickly customized.
 
 ![Project Detail Interface](https://steedos.github.io/assets/github/project_management_app/cn/project_detail.jpg)
 ## Features
