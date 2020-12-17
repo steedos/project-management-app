@@ -1,11 +1,11 @@
 
 <p align="center">
   <a href="https://www.steedos.com/cn">
-    <img alt="项目管理系统" src="https://steedos.github.io/assets/logo.png" width="120" />
+    <img alt="华炎项目管理系统" src="https://steedos.github.io/assets/logo.png" width="120" />
   </a>
 </p>
 <h1 align="center">
-  项目管理系统
+  华炎项目管理系统
 </h1>
 
 <p align="center">
