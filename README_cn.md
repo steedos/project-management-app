@@ -1,11 +1,11 @@
 
 <p align="center">
   <a href="https://www.steedos.com/cn">
-    <img alt="华炎魔方" src="https://steedos.github.io/assets/logo.png" width="120" />
+    <img alt="项目管理系统" src="https://steedos.github.io/assets/logo.png" width="120" />
   </a>
 </p>
 <h1 align="center">
-  华炎魔方
+  项目管理系统
 </h1>
 
 <p align="center">
@@ -15,7 +15,8 @@
 </p>
 
 <p align="center" style="border-top: solid 1px #cccccc">
-  华炎魔方是一套可视化建模、描述式编程的低代码开发平台，只需点击鼠标，就能轻松便捷地创建智能化、移动化的企业应用程序。
+  帮助您跟踪和管理项目，里程碑，任务，已阻止的任务，逾期任务，时间，费用预算，并具有详细的报表功能。系统使用华炎魔方平台可视化配置实现，基于元数据驱动，可以快速自定义。
+
 </p>
 
 <h3 align="center">
@@ -23,8 +24,6 @@
 </h3>
 
 # 项目管理系统案例
-
-帮助您跟踪和管理项目，里程碑，任务，已阻止的任务，逾期任务，时间，费用预算，并具有详细的报表功能。系统使用华炎魔方平台可视化配置实现，基于元数据驱动，可以快速自定义。
 
 ![项目详细界面](https://steedos.github.io/assets/github/project_management_app/cn/project_detail.jpg)
 
