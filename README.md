@@ -12,8 +12,8 @@
 
 <p align="center">
 <a href="https://github.com/steedos/project-management-app/blob/master/README_cn.md">中文</a>
-<a href="https://github.com/steedos/project-management-app/issues/"> · 报告错误</a>
-<a href="https://github.com/steedos/steedos-platform/discussions"> · 讨论</a>
+<a href="https://github.com/steedos/project-management-app/issues/"> · Report a Bug</a>
+<a href="https://github.com/steedos/project-management-app/discussions"> · Discussions</a>
 </p>
 
 <p align="center" style="border-top: solid 1px #cccccc">
