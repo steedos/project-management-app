@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href="https://www.steedos.com/cn">
+  <a href="https://www.steedos.org">
     <img alt="Project Management System
 " src="https://steedos.github.io/assets/logo.png" width="120" />
   </a>
