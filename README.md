@@ -27,7 +27,7 @@
 
 ## Steedos Project Management System
 
-![Project Detail Interface](https://steedos.github.io/assets/github/project_management_app/cn/project_detail.jpg)
+
 ## Features
 
 - **Project Program**: Centralized management of all projects, a project may or may not belong to a project program, but any project program must contain projects. In the project program, you can directly see the running status of all projects.
