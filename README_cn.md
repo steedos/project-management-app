@@ -134,5 +134,5 @@ yarn start
 
 #### 微信公众号
 
-![微信公众号](https://www.steedos.com/assets/github/platform/cn/Public_Number.jpg)
+![微信公众号](https://www.steedos.com/assets/github/platform/cn/public_number.jpg)
  
