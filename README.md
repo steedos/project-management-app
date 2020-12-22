@@ -25,9 +25,6 @@
  🤖 🎨 🚀
 </h3>
 
-## Steedos Project Management System
-
-
 ## Features
 
 - **Project Program**: Centralized management of all projects, a project may or may not belong to a project program, but any project program must contain projects. In the project program, you can directly see the running status of all projects.
@@ -39,12 +36,6 @@
 - **Meeting**: Each project will have a corresponding meeting. After determining the meeting theme, you can directly select to associate it to a project.
 - **Issue**: When you create a new issue, you can set the priority of the problem because multiple problems may occur in the same period of time.
 - **Log**: Each project in progress or after the end, can quickly create a log, in order to effectively control each project.
-
-## About  Steedos Platform
-
-Steedos Platform is a visual modeling and descriptive programming development tool. The design goal is to lower the threshold of application construction so that everyone can participate in the development. The system has built-in data modeling and a series of automatic tools, including validation rules, public computing, workflow rules, automatic operation, approval process, report engine and so on.
-
-- [Steedos Platform](https://www.steedos.org/)
 
 ## Requirements
 
@@ -98,6 +89,12 @@ The source code of the project depends on nodejs environment. To use mongodb dat
   2. Install dependent packages
   3. Running project
   4. Using browser access `http://127.0.0.1:5000/`    For the first time, the database is empty. You need to register an account and choose to create an enterprise.
+
+## About  Steedos Platform
+
+Steedos Platform is a visual modeling and descriptive programming development tool. The design goal is to lower the threshold of application construction so that everyone can participate in the development. The system has built-in data modeling and a series of automatic tools, including validation rules, public computing, workflow rules, automatic operation, approval process, report engine and so on.
+
+- [Steedos Platform](https://www.steedos.org/)
 
 ## Keep in Contact
 
