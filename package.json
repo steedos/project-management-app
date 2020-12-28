@@ -14,6 +14,7 @@
         "@steedos/accounts": "^1.23.0-alpha.11",
         "@steedos/metadata-api": "^1.23.0-alpha.9",
         "@steedos/steedos-plugin-workflow": "^2.0.8",
+        "@steedos/word-template": "^1.23.0-alpha.11",
         "dotenv-flow": "^3.1.0",
         "steedos-server": "^1.23.0-alpha.11"
     },

@@ -32,3 +32,4 @@ tenant:
 plugins:
   - "@steedos/accounts"
   - "@steedos/metadata-api"
+  - "@steedos/word-template"
