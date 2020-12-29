@@ -99,6 +99,76 @@ project-management-app
 └── yarn.lock
 ```
 
+##  基于元数据配置
+
+元数据是华炎魔方的核心组件。华炎魔方支持几十种元数据类型，每种元数据用来定义一种业务功能，基于这些元数据，只需简单配置，就能开发功能完善的定制化应用。
+例如本项目中的项目对象，该对象包含字段，列表视图，权限，验证规则等元数据。下面以字段，列表视图权限，对象为例，了解如何基于元数据来配置。
+
+以下为路径`/steedos-app/main/default/objects/project__c/fields`中的内容，表示在项目对象中创建了一个允许被搜索的客户字段。
+
+```yml
+fields
+name: account__c 
+label: 客户
+type: text
+searchable: true
+sort_no: 115
+```
+
+以下为路径`/steedos-app/main/default/objects/project__c/listviews`中的内容，表示列表视图中属于项目管理员自己的项目。
+
+```yml
+name: my
+label: 我的项目
+type: grid
+columns:
+- field: project_manager__c     
+  width: '150'
+- field: status__c     
+  width: '150'
+  ...
+filter_scope: mine 
+scrolling_mode: standard 
+shared: true
+```
+
+以下为路径`/steedos-app/main/default/objects/project__c/permissions`中的内容，表示项目管理员拥有的权限：不允许创建，允许删除编辑和查看，允许修改和查看全员的记录。您也可以根据根据自身需求进行配置。
+
+```yml
+allowCreate: false
+allowDelete: true
+allowEdit: true
+allowRead: true
+modifyAllRecords: true
+viewAllRecords: true
+```
+
+以下为路径`/steedos-app/main/default/objects/project__c/project__c.object.yml`中的内容，表示名称为“项目”的自定义对象。
+
+```yml
+name: project__c
+label: 项目
+custom: true
+enable_api: true
+enable_audit: true
+enable_chatter: false
+enable_events: false
+enable_files: true
+enable_inline_edit: true
+enable_instances: false
+enable_notes: false
+enable_search: true
+enable_share: false
+enable_tasks: false
+enable_workflow: false
+icon: performance
+is_enable: true
+```
+
+按钮，验证规则等也是通过同样的的方式进行配置。业务人员通过可视化配置的元数据与开发人员通过代码配置的元数据，可以通过华炎魔方DX工具进行双向同步，极大地提升了业务效率。
+
+
+
 ## 项目运行
 
 项目源码依赖 nodejs 环境，使用 mongodb 数据库，需先部署相应的运行环境。
