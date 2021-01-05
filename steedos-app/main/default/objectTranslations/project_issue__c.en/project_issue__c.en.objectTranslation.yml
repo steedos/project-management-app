@@ -31,7 +31,7 @@ fields:
     help: 
     description: 
   priority__c:
-    label: 
+    label: Priority
     help: 
     options:
       - label: High
