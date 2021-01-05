@@ -11,7 +11,7 @@ fields:
     help: 
     description: 
   program_health__c:
-    label: Running Statu
+    label: Running Status
     help: 
     options:
       - label: Red
@@ -38,4 +38,4 @@ listviews:
   my:
     label: My Project Sets
   recent:
-    label: Recent viwed
+    label: Recent Viwed

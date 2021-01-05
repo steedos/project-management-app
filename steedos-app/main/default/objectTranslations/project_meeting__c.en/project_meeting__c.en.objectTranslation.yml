@@ -15,7 +15,7 @@ fields:
     help: Meeting objectives, agenda, participants and other explanations.
     description: 
   end__c:
-    label: End of date
+    label: End Date
     help: 
     description: 
   is_all_day__c:

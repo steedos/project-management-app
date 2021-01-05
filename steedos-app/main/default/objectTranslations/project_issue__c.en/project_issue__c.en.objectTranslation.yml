@@ -3,11 +3,11 @@ label: Issue
 description: 
 fields:
   actual_resolution__c:
-    label: Actual solved date
+    label: Actual Solved Date
     help: 
     description: 
   assigned_to__c:
-    label: Assigned users
+    label: Assigned Member
     help: 
     description: 
   detail__c:
@@ -27,7 +27,7 @@ fields:
     help: 
     description: 
   planned_resolution__c:
-    label: Planning date
+    label: Planning Date
     help: 
     description: 
   priority__c:
@@ -115,8 +115,8 @@ fields:
     description: 
 listviews:
   all:
-    label: All Issues
+    label: All Issues List
   my:
-    label: My Issues
+    label: My Issues List
   recent:
     label: Recently Viewed
