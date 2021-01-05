@@ -1,0 +1,45 @@
+name: project_milestone__c
+label: Milestone
+description: 
+fields:
+  completed_date__c:
+    label: Actual complated date
+    help: 
+    description: 
+  completed__c:
+    label: Completed
+    help: 
+    description: 
+  deadline__c:
+    label: Deadline
+    help: 
+    description: 
+  description__c:
+    label: Description
+    help: 
+    description: 
+  head__c:
+    label: Header
+    help: 
+    description: 
+  kickoff__c:
+    label: Start date
+    help: 
+    description: 
+  name:
+    label: Milestone name
+    help: 
+    description: 
+  project__c:
+    label: Project
+    help: Parent project
+    description: 
+listviews:
+  all:
+    label: All
+  mine:
+    label: My
+  recent:
+    label: Recently Viewed
+  to_be_completed:
+    label: To be completed

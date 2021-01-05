@@ -1,0 +1,41 @@
+name: project_program__c
+label: Project sets
+description: 
+fields:
+  name:
+    label: name
+    help: 
+    description: 
+  note__c:
+    label: remark
+    help: 
+    description: 
+  program_health__c:
+    label: Running status
+    help: 
+    options:
+      - label: Red
+        value: Red
+        color: c11d25
+      - label: Green
+        value: Green
+        color: 49d181
+      - label: Yellow
+        value: Yellow
+        color: f9e29d
+    description: 
+  program_manager__c:
+    label: Project manager
+    help: 
+    description: 
+  total_projects__c:
+    label: Project count
+    help: 
+    description: 
+listviews:
+  all:
+    label: All
+  my:
+    label: My
+  recent:
+    label: Recent viwed

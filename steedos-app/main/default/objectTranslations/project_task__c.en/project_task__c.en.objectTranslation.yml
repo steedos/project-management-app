@@ -1,0 +1,138 @@
+name: project_task__c
+label: Project Task
+description: 
+fields:
+  assignees__c:
+    label: Assign to
+    help: 
+    description: 
+  blocked_reason__c:
+    label: Stagnation reason
+    help: 
+    description: 
+  blocked__c:
+    label: Stagnation
+    help: 
+    description: 
+  class__c:
+    label: Additional tags
+    help: 
+    options:
+      - label: Temporary
+        value: Ad Hoc
+      - label: Defect
+        value: Defect
+      - label: Rework
+        value: Rework
+    description: 
+  completed_date__c:
+    label: Actual complated date
+    help: 
+    description: 
+  completed__c:
+    label: Complated
+    help: 
+    description: 
+  description__c:
+    label: Description
+    help: 
+    description: 
+  due_date__c:
+    label: Deadline
+    help: 
+    description: 
+  estimated_expense__c:
+    label: Budget
+    help: 
+    description: 
+  estimated_hours__c:
+    label: Estimated time
+    help: 
+    description: 
+  expense_balance__c:
+    label: Remaining cost 
+    help: 
+    description: 
+  hours_balance__c:
+    label: Remaining time
+    help: 
+    description: 
+  name:
+    label: Name
+    help: 
+    description: 
+  overspended__c:
+    label: Overspent
+    help: 
+    description: 
+  priority__c:
+    label: Priority
+    help: 
+    options:
+      - label: High
+        value: high
+        color: c11d25
+      - label: Normal
+        value: normal
+        color: f9e29d
+      - label: Low
+        value: low
+        color: 49d181
+    description: 
+  project_milestone__c:
+    label: Milestone
+    help: 
+    description: 
+  project_name__c:
+    label: Project name
+    help: 
+    description: 
+  project__c:
+    label: Project
+    help: 
+    description: 
+  start_date__c:
+    label: Start date
+    help: 
+    description: 
+  state__c:
+    label: Status
+    help: 
+    options:
+      - label: Unstart
+        value: not_started
+        color: cfd3d7
+      - label: Progressing
+        value: in_progress
+        color: '4169E1'
+      - label: Completed
+        value: completed
+        color: 49d181
+      - label: Waiting
+        value: waiting
+        color: f9e29d
+      - label: Delay
+        value: deferred
+        color: c11d25
+    description: 
+  total_expense__c:
+    label: Cumulative cost
+    help: 
+    description: 
+  total_hours__c:
+    label: Cumulative time
+    help: 
+    description: 
+groups:
+  受阻: Stagnation
+  费用: Cost
+  用时: Time
+listviews:
+  all:
+    label: All Tasks
+  mine:
+    label: My Tasks
+  recent:
+    label: Recently Viewed
+  todo:
+    label: To be completed
