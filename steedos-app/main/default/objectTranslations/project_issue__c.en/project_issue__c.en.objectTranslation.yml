@@ -57,15 +57,15 @@ fields:
     help: 
     description: 
   requester__c:
-    label: Question giver
+    label: Member of New Issue
     help: 
     description: 
   request_date__c:
-    label: Quest date
+    label: Date of New Issue
     help: 
     description: 
   resolution_note__c:
-    label: Completion statement
+    label: Completion Statement
     help: A note on how the problem is solved
     description: 
   status__c:
@@ -89,7 +89,7 @@ fields:
         color: cfd3d7
     description: 
   type__c:
-    label: Problem types
+    label: Problem Type
     help: 
     options:
       - label: Budget

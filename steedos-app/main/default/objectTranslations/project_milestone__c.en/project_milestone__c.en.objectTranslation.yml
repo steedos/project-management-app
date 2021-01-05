@@ -3,7 +3,7 @@ label: Milestone
 description: 
 fields:
   completed_date__c:
-    label: Actual complated date
+    label: Actual Complated Date
     help: 
     description: 
   completed__c:
@@ -23,11 +23,11 @@ fields:
     help: 
     description: 
   kickoff__c:
-    label: Start date
+    label: Start Date
     help: 
     description: 
   name:
-    label: Milestone name
+    label: Milestone Name
     help: 
     description: 
   project__c:
@@ -36,9 +36,9 @@ fields:
     description: 
 listviews:
   all:
-    label: All
+    label: All Milestone List
   mine:
-    label: My
+    label: My Milestone List
   recent:
     label: Recently Viewed
   to_be_completed:

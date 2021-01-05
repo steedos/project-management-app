@@ -3,11 +3,11 @@ label: Project Task
 description: 
 fields:
   assignees__c:
-    label: Assign to
+    label: Assign To
     help: 
     description: 
   blocked_reason__c:
-    label: Stagnation reason
+    label: Stagnation Reason
     help: 
     description: 
   blocked__c:
@@ -15,7 +15,7 @@ fields:
     help: 
     description: 
   class__c:
-    label: Additional tags
+    label: Additional Label
     help: 
     options:
       - label: Temporary
@@ -26,7 +26,7 @@ fields:
         value: Rework
     description: 
   completed_date__c:
-    label: Actual complated date
+    label: Actual Complated Date
     help: 
     description: 
   completed__c:
@@ -46,15 +46,15 @@ fields:
     help: 
     description: 
   estimated_hours__c:
-    label: Estimated time
+    label: Estimated Time
     help: 
     description: 
   expense_balance__c:
-    label: Remaining cost 
+    label: Remaining Cost 
     help: 
     description: 
   hours_balance__c:
-    label: Remaining time
+    label: Remaining Time
     help: 
     description: 
   name:
@@ -84,7 +84,7 @@ fields:
     help: 
     description: 
   project_name__c:
-    label: Project name
+    label: Project Name
     help: 
     description: 
   project__c:
@@ -92,7 +92,7 @@ fields:
     help: 
     description: 
   start_date__c:
-    label: Start date
+    label: Start Date
     help: 
     description: 
   state__c:
@@ -116,11 +116,11 @@ fields:
         color: c11d25
     description: 
   total_expense__c:
-    label: Cumulative cost
+    label: Cumulative Cost
     help: 
     description: 
   total_hours__c:
-    label: Cumulative time
+    label: Cumulative Time
     help: 
     description: 
 groups:
@@ -129,9 +129,9 @@ groups:
   用时: Time
 listviews:
   all:
-    label: All Tasks
+    label: All Task List
   mine:
-    label: My Tasks
+    label: My Task List
   recent:
     label: Recently Viewed
   todo:

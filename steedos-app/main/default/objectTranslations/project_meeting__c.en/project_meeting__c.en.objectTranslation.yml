@@ -15,11 +15,11 @@ fields:
     help: Meeting objectives, agenda, participants and other explanations.
     description: 
   end__c:
-    label: End date
+    label: End of date
     help: 
     description: 
   is_all_day__c:
-    label: All day 
+    label: All Day Meeting
     help: 
     description: 
   location__c:
@@ -27,7 +27,7 @@ fields:
     help: 
     description: 
   meeting_type__c:
-    label: Meeting type
+    label: Meeting Type
     help: 
     options:
       - label: Project start
@@ -50,7 +50,7 @@ fields:
     help: 
     description: 
   owner:
-    label: header
+    label: Header
     help: 
     description: 
   project__c:
@@ -58,11 +58,11 @@ fields:
     help: 
     description: 
   start__c:
-    label: Start date
+    label: Start Date
     help: 
     description: 
 listviews:
   all:
-    label: All
+    label: All Meeting List
   recent:
     label: Recently Viewed

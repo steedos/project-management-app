@@ -1,17 +1,17 @@
 name: project_program__c
-label: Project sets
+label: Project Sets
 description: 
 fields:
   name:
-    label: name
+    label: Name
     help: 
     description: 
   note__c:
-    label: remark
+    label: Remark
     help: 
     description: 
   program_health__c:
-    label: Running status
+    label: Running Statu
     help: 
     options:
       - label: Red
@@ -25,17 +25,17 @@ fields:
         color: f9e29d
     description: 
   program_manager__c:
-    label: Project manager
+    label: Project Manager
     help: 
     description: 
   total_projects__c:
-    label: Project count
+    label: Project Count
     help: 
     description: 
 listviews:
   all:
-    label: All
+    label: All Project Sets
   my:
-    label: My
+    label: My Project Sets
   recent:
     label: Recent viwed

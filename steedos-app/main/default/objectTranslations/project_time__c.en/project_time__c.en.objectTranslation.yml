@@ -11,11 +11,11 @@ fields:
     help: 
     description: 
   incurred_by__c:
-    label: Handled by
+    label: Handled By
     help: 
     description: 
   incurred_date__c:
-    label: Handled date
+    label: Handled Date
     help: 
     description: 
   name:
@@ -31,13 +31,13 @@ fields:
     help: 
     description: 
   project__c:
-    label: Project name
+    label: Project Name
     help: 
     description: 
 listviews:
   all:
-    label: All
+    label: All Time List
   my:
-    label: My 
+    label: My Time List
   recent:
     label: Recently Viewed

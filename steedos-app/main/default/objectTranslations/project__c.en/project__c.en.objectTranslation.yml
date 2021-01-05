@@ -11,11 +11,11 @@ fields:
     help: 
     description: 
   count_milestones_ok__c:
-    label: Completed milestones number 
+    label: Completed Milestones Count 
     help: 
     description: 
   count_milestones__c:
-    label: Total milestones
+    label: Total Milestones
     help: 
     description: 
   deadline__c:
@@ -27,39 +27,39 @@ fields:
     help: 
     description: 
   internal__c:
-    label: Internal project
+    label: Internal Project
     help: 
     description: 
   kickoff__c:
-    label: Start date
+    label: Start Date
     help: 
     description: 
   name:
-    label: Name
+    label: Project Name
     help: 
     description: 
   open_issues__c:
-    label: Unsolved problem
+    label: Unsolved Problem
     help: 
     description: 
   open_tasks__c:
-    label: Pending task
+    label: Pending Task
     help: 
     description: 
   pencent_milestones__c:
-    label: Completed milestones
+    label: Completed Milestones
     help: 
     description: 
   project_manager__c:
-    label: Project manager
+    label: Project Manager
     help: 
     description: 
   project_program__c:
-    label: Project sets
+    label: Project Sets
     help: 
     description: 
   status__c:
-    label: Project status
+    label: Project Status
     help: 
     options:
       - label: Waiting

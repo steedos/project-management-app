@@ -11,7 +11,7 @@ fields:
     help: 
     description: 
   project_milestone__c:
-    label: Project milestone
+    label: Project Milestone
     help: 
     description: 
   project__c:

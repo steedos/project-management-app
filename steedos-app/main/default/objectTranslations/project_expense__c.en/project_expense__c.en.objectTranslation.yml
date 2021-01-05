@@ -7,11 +7,11 @@ fields:
     help: 
     description: 
   approved_date__c:
-    label: Audit date
+    label: Audit Date
     help: 
     description: 
   approve_state__c:
-    label: Audit status
+    label: Audit Status
     help: 
     options:
       - label: To submit
@@ -32,11 +32,11 @@ fields:
     help: 
     description: 
   incurred_by__c:
-    label: Handled by
+    label: Handled By
     help: 
     description: 
   incurred_date__c:
-    label: Handled date
+    label: Handled Date
     help: 
     description: 
   name:
@@ -56,17 +56,17 @@ fields:
     help: 
     description: 
   project__c:
-    label: Project name
+    label: Project Name
     help: 
     description: 
   submit_date__c:
-    label: Submit date
+    label: Submit Date
     help: 
     description: 
 listviews:
   all:
-    label: All
+    label: All Expense List
   my:
-    label: My
+    label: My Expense List
   recent:
     label: Recently Viewed
