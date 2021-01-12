@@ -1,4 +1,4 @@
 CustomApplications:
   projects:
-    name: project
+    name: Project
     description: Manage the entire life cycle of the project through projects, tasks, milestones.

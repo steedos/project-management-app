@@ -55,7 +55,7 @@ fields:
     help: 
     description: 
   project_program__c:
-    label: Project Sets
+    label: Project Program
     help: 
     description: 
   status__c:

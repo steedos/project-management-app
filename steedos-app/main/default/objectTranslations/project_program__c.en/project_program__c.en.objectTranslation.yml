@@ -1,5 +1,5 @@
 name: project_program__c
-label: Project Sets
+label: Project Program
 description: 
 fields:
   name:
@@ -34,8 +34,8 @@ fields:
     description: 
 listviews:
   all:
-    label: All Project Sets
+    label: All Project Programs
   my:
-    label: My Project Sets
+    label: My Project Programs
   recent:
     label: Recent Viwed
