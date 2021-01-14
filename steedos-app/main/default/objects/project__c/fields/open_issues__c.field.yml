@@ -1,12 +1,9 @@
 name: open_issues__c
 data_type: number
-defaultValue: null
-description: null
 filterable: false
 group: 任务与问题
 hidden: false
 index: false
-inlineHelpText: null
 is_name: false
 is_wide: false
 label: 待解决问题

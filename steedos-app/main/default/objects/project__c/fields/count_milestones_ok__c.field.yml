@@ -1,12 +1,8 @@
 name: count_milestones_ok__c
 data_type: number
-defaultValue: null
-description: null
 filterable: false
-group: null
 hidden: true
 index: false
-inlineHelpText: null
 is_name: false
 is_wide: false
 label: 里程碑完成数

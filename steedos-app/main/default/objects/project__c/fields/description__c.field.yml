@@ -1,11 +1,7 @@
 name: description__c
-defaultValue: null
-description: null
 filterable: false
-group: null
 hidden: false
 index: false
-inlineHelpText: null
 is_name: false
 is_wide: true
 label: 简述

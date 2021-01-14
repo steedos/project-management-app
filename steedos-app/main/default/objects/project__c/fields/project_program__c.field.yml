@@ -1,17 +1,11 @@
 name: project_program__c
-defaultValue: null
-description: null
 filterable: false
-filtersFunction: null
-group: null
 hidden: false
 index: false
-inlineHelpText: null
 is_name: false
 is_wide: false
 label: 项目集
 omit: false
-optionsFunction: null
 readonly: false
 reference_to: project_program__c
 required: false

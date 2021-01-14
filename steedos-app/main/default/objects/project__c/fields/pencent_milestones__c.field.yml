@@ -1,14 +1,10 @@
 name: pencent_milestones__c
 data_type: number
-defaultValue: null
-description: null
 filterable: false
 formula: count_milestones_ok__c / count_milestones__c
 formula_blank_value: zeroes
-group: null
 hidden: false
 index: false
-inlineHelpText: null
 is_name: false
 is_wide: false
 label: 里程碑完成

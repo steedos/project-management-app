@@ -1,11 +1,7 @@
 name: account__c
-defaultValue: null
-description: null
 filterable: true
-group: null
 hidden: false
 index: false
-inlineHelpText: null
 is_name: false
 is_wide: false
 label: 客户

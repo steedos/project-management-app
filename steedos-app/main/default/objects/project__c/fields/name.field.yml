@@ -1,11 +1,7 @@
 name: name
-defaultValue: null
-description: null
 filterable: false
-group: null
 hidden: false
 index: true
-inlineHelpText: null
 is_name: false
 is_wide: false
 label: 名称
